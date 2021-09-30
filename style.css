@@ -1,0 +1,5674 @@
+/* CSS styles */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+html{
+  scroll-behavior:smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+  }
+  .t-m-s{
+    font-size: 2rem;
+}
+  .f-l-s{
+    font-size: 1rem;
+}
+  .btn-detay-genel{
+    width: 160px;
+    height: 60px;
+    border-radius: 30px;
+    border-style: none;
+    color: white;
+    background: rgb(194, 0, 194);
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 1s;
+  }
+  
+  .navbar {
+    
+    height: 65px;
+    width: 100%;
+    justify-content: space-evenly;
+    background: linear-gradient(270deg,rgb(118, 14, 179) 0%,rgb(213, 4, 255) 100%);
+    box-shadow: 0 4px 4px 0 rgb(0 0 0 / 20%);
+    z-index: 2;
+    
+  }
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 4;
+}
+  .navbar img{
+    height: 50px;
+  }
+  .navbar-links{
+      font-size: 15px;
+      width: 50%;
+      margin-right: 2%;
+      margin-left: 5%;
+      font-weight: 600;
+      
+    
+  }
+  .navbar-links a{
+    margin: 0 3%; 
+  }
+  .brand-name a{
+        
+        font-size: 2vw;
+        font-weight: 800;
+  }
+  .navbar-btn-group{
+        
+        width: 25%;
+        justify-content: flex-start;
+        margin-right: 10%;
+  }
+  .btn-basvur{
+    width: 140px;
+    height: 35px;
+    border-radius: 30px;
+    border-style: none;
+    color: white;
+    background: rgb(194, 0, 194);
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 3%;
+    transition: all 1s;
+  }
+  .btn-kamp{
+    width: 140px;
+    height: 35px;
+    border-radius: 30px;
+    border-style: none;
+    color: rgb(194, 0, 194);
+    background: white;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 1s;
+  }
+  .navbar-branding{
+      margin-left: 10%;
+      width: 25%;
+      font-size: 23px;
+      font-weight: 800;
+      justify-content: flex-end;
+      
+  }
+  .sticky + .main{
+    padding-top: 50px;
+  }
+  .main{
+     
+      text-align: center;
+      display: flex;
+      justify-content: space-evenly;
+      width: 100%;
+      height: 100vh;
+      margin: auto;
+      background: linear-gradient(270deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+      color: white;
+    
+      
+  }
+  .main-elemanlar{
+    width: 100%;
+    margin: auto;
+    
+  
+    background-color: transparent;
+  }
+  .main-elemanlar #main-yazilar{
+        margin-bottom: 3%;
+  }
+  .main-elemanlar #main-yazilar li{
+    margin-bottom: 2%;
+    
+  }
+  .main-elemanlar #main-yazilar li p{
+          font-size: 25px;
+          margin: auto;
+          width: 50%;
+  }
+  .main-elemanlar #main-yazilar li h2{
+    font-size: 4.5rem;
+    margin: auto;
+    width: 60%;
+}
+
+.main-elemanlar ul{
+    list-style: none;
+  }
+.main-elemanlar #main-butonlar{
+  display: inline-flex;
+  justify-content: space-evenly;
+  margin-bottom: 5%; 
+}
+  .main-elemanlar #main-butonlar button{ 
+    margin:5% auto;
+    width: 220px;
+    height: 70px;
+    border-radius: 50px;
+    font-weight: 800;
+    font-size: 18px;
+  }
+  .main-elemanlar #main-butonlar #btn-hem1{
+    
+    width: 220px;
+    height: 70px;
+    border-radius: 50px;
+    border-style: none;
+    color:white ;
+    background: rgb(194, 0, 194);
+    font-weight: 800;
+    font-size: 19px;
+    cursor: pointer;
+    transition: all 1s;
+  }
+  .main-elemanlar #main-butonlar #btn-kam1{
+    
+    width: 220px;
+    height: 70px;
+    border-radius: 50px;
+    border-style: none;
+    color: rgb(194, 0, 194);
+    background: white;
+    font-weight: 800;
+    font-size: 19px;
+    cursor: pointer;
+    transition: all 1s;
+  }
+  .main-elemanlar #main-butonlar li{
+          margin-left:3%;
+          margin-right:3%;
+  }
+  .flex {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+ 
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  .color-box{
+    background: linear-gradient(#ff3e88,#cc005c);
+    border-radius: 30% 5% 30% 5%;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+  }
+  .nedir{
+      display: flex;
+      width: 100%;
+      height: 100vh;
+      margin: auto;
+      background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+      box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+        
+      color: white;
+  }
+   
+  .nedir ul{
+    list-style: none;
+    
+  }
+  .nedir-sol{
+    margin:auto;
+    display: flex;
+    justify-content: space-evenly;
+    background-color:transparent;
+    width: 60%;
+  }
+  .nedir-sol ul{
+    padding-left: 20%;
+      width: 100%;
+      
+  }
+  .nedir-sol ul li h2{
+    
+    font-size: 3.5rem;
+    width: 100%;
+    
+  }
+  .nedir-sol ul li p{
+    width: 84%;
+    font-size: 24px;
+  }
+  .nedir-sol ul li{
+    margin-top: 5%;
+  }
+  .nedir-sag{
+    margin: auto;
+    display: flex;
+    background-color: transparent;
+    width: 40%;
+  }
+ 
+  .nedir-sag img{
+    text-align: center;
+    margin-right:10%;
+    z-index: 3;
+  }
+ 
+  .hesaplama{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+    box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+    color: white;
+}
+ 
+.hesaplama ul{
+  list-style: none;
+  
+}
+.hesaplama-sag{
+  margin:auto;
+  display: flex;
+  justify-content: space-evenly;
+  background-color:transparent;
+  width: 60%;
+}
+.hesaplama-sag ul{
+  padding-left: 20%;
+    width: 100%;
+    
+}
+.hesaplama-sag ul li h2{
+  
+  font-size: 3.5rem;
+  width: 100%;
+  
+}
+.hesaplama-sag ul li p{
+  width: 84%;
+  font-size: 24px;
+}
+.hesaplama-sag ul li{
+  margin-top: 5%;
+}
+.btn-g-hem{
+  display: none;
+}
+
+
+.hesaplama-sol{
+  margin: auto;
+  display: flex;
+  background-color: transparent;
+  width: 40%;
+}
+.hesaplama-sol .color-box{
+  border-radius: 5% 30% 5% 30%;
+}
+.hesaplama-sol img{
+  text-align: center;
+  margin-left: 10%;
+ 
+}
+.avantaj{
+    color: white;
+    background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+    box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+}
+.avantaj-gorseller{
+  width: 145px; 
+  height:145px;
+  border-radius: 30% 30% 30% 30%;
+}
+.avantaj-ust{
+    width: 100%;
+    height: 200px;
+    margin: 0px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+.avantaj-ust h2{
+  font-size: 3rem;
+  text-align: center;
+  width: 45%;
+  font-weight: 800;
+}
+.avantaj-orta{
+  width: 100%;
+  height: 140vh;;
+}
+.avantaj-orta h2{
+  margin-bottom: 5%;
+  font-size: 2.2rem;
+  font-weight: 800;
+  line-height: 1.5;
+}
+.avantaj-orta p{
+  font-size: 20px;
+  font-weight: 400;
+}
+.avantaj-orta img{
+  margin-bottom: 15%;
+}
+
+.p-genel{
+    font-size: 25px;
+    font-weight: 400;
+}
+.p-genel2{
+    font-size: 25px;
+    font-weight: 500;
+}
+.birikim{
+  width: 100%;
+  display: flex;
+  margin:0px auto;
+}
+.birikim ul{
+    list-style: none;
+    width: 50%;
+    margin-bottom: 2%;
+}
+
+.birikim #birikim-ul1 li{
+    width: 52%;
+    display: flex;
+    margin-left: auto;
+    margin-right: 10%;
+    text-align: left;
+}
+.birikim #birikim-ul2 li{
+    width: 57%;
+    display: flex;
+    margin-right: auto;
+    margin-left: 10%;
+    text-align: left;
+    
+}
+
+.katki{
+  
+  width: 100%;
+  display: flex;
+  margin: 0px auto;
+  
+}
+.katki ul{
+    list-style: none;
+    width: 50%;
+    margin-top: 3%;
+}
+.katki #katki-ul1 li{
+  width: 52%;
+  display: flex;
+  margin-left: auto;
+  margin-right: 10%;
+  text-align: left;
+}
+.katki #katki-ul2 li{
+  width: 57%;
+  display: flex;
+  margin-right: auto;
+  margin-left: 10%;
+  text-align: left;
+}
+
+
+.avantaj-alt{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.yas{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+  box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+  color: white;
+}
+
+.yas ul{
+list-style: none;
+
+}
+.yas-sag{
+margin:auto;
+display: flex;
+justify-content: space-evenly;
+background-color:transparent;
+width: 60%;
+}
+.yas-sag ul{
+padding-left: 20%;
+  width: 100%;
+  
+}
+.yas-sag ul li h2{
+
+font-size: 3.5rem;
+width: 100%;
+
+}
+.yas-sag ul li p{
+width: 84%;
+font-size: 24px;
+}
+.yas-sag ul li{
+margin-top: 5%;
+}
+.btn-yas{
+width: 160px;
+height: 50px;
+border-radius: 40px;
+border-style: none;
+color: white;
+background: rgb(194, 0, 194);
+font-weight: 700;
+font-size: 15px;
+cursor: pointer;
+transition: all 1s;
+}
+
+
+.yas-sol{
+margin: auto;
+display: flex;
+background-color: transparent;
+width: 40%;
+}
+
+.yas-sol img{
+text-align: left;
+margin-left: 10%;
+}
+
+
+.footer-menu{
+  box-shadow: 0 -5px 4px 0 rgb(0 0 0 / 20%);
+    display: inline-flex;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    background: linear-gradient(270deg,rgb(118, 14, 179) 0%,rgb(213, 4, 255) 70%);
+}
+
+
+.footer-menu ul {
+    display: inline-flex;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.logo{
+    width: 50px;
+    cursor: pointer;
+    margin-left: 2%;
+    
+}
+.logoname{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+  
+}
+.footer-menu ul li {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  left: 200px;
+}
+.footer-menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center;
+  margin-right: 100px;
+  margin-left: -40px;
+}
+
+.copyright {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(213, 4, 255);
+}
+.copyright p{
+  font-size: 11px;
+  color: white;
+}
+
+#menu__toggle {
+  display: none;
+  visibility: hidden;
+}
+
+
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  left: 0;
+}
+
+
+.menu__btn {
+  
+  display: none;
+  align-items: center;
+  position: relative;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+
+  width: 100%;
+  height: 2px;
+
+  background-color: #ffffff;
+
+  transition-duration: .25s;
+}
+.menu__btn > span::before {
+  content: '';
+  top: -8px;
+}
+.menu__btn > span::after {
+  content: '';
+  top: 8px;
+}
+
+.menu__box {
+  display: block;
+  text-align: center;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  right: -100%;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  background: linear-gradient(270deg,rgb(118, 14, 179) 0%,rgb(213, 4, 255) 100%);
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  transition-duration: 0.25s;
+  z-index: -1;
+}
+
+
+.menu__item {
+  display: block;
+  padding: 12px 24px;
+  width: 70%;
+  margin:0 auto;
+  color: white;
+  text-decoration: none;
+  transition-duration: .25s;
+
+}
+.menu__item2{
+    display: block;
+    padding: 12px 24px;
+    width: 30%;
+    margin-top: 25%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-decoration: none;
+    transition-duration: .25s;
+
+}
+.a-menubox{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.menu__item:hover {
+  background-color: #fd1ec5;
+}
+.menu__item2:hover {
+  background-color: #fd1ec5;
+}
+@media only screen and (min-width: 1025px) and (max-width: 1365px){
+
+
+      .footer-menu{
+        width: 100%;
+        
+      }
+     .footer-other{
+        width: 80%;
+        justify-content: right;
+     }
+     .footer-menu ul li a{
+       margin-right: 0px;
+       margin-left: 0px;
+     
+     }
+    .footer-menu-links ul{
+            width: 100%;
+            margin: 0 auto;
+            justify-content: right;
+           
+    }
+     .footer-menu-links {
+       width:100%;
+
+     }
+     .footer-branding{
+       width: 20%;
+     }
+     .footer-brand{
+       width: 100%;
+     }
+
+}
+@media screen and (prefers-reduce-motion:reduce){
+  html{
+    scroll-behavior:auto;
+  }
+  
+}
+
+/********************************************            *********************************************************/
+/********************************************   *******   ********************************************************/
+/********************************************   ******   ********************************************************/
+/********************************************           *********************************************************/
+/********************************************   ******************************************************************/
+/********************************************   ******************************************************************/
+/********************************************   ******************************************************************/
+
+@media screen and (orientation:portrait){
+  @media only screen and (max-width:320px){
+ 
+    .menu__btn{
+      display: flex;
+    }
+    .menu__box{
+      z-index: 0;
+    }
+    .menu__item{
+      padding: 9px 18px;
+    }
+    .menu__item2{
+      margin-top: 5%;
+      padding: 9px 18px;
+      
+    }
+    #menu__toggle{
+      display: none;
+      visibility: hidden;
+    }
+    .btn-basvur{
+      z-index: 1;
+      width: 100px;
+      height: 35px;
+      font-size: 11px;
+      margin-left: 0%;
+      margin-right: 5%;
+      border-radius: 40px;
+    }
+    .a-menubox{
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+    .p-genel2{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    .btn-kamp{
+      display: none;
+    }
+    .header-top{
+      width: 100%;
+    }
+    .navbar-links{
+      display: none;
+    }
+    .navbar-branding{
+      margin-left:1%;
+      z-index: 2;
+      width: 50%;
+      font-size: 15px;
+      font-weight: 800;
+      justify-content: flex-start;
+      
+  }  
+  .brand-name a{
+    font-size: 18px;
+    font-weight: 700;
+    width: 70%;
+  }
+  .navbar-btn-group{
+    width: 50%;
+    justify-content: flex-end;
+    margin-right: 2%;
+  }
+  .sticky + .main{
+    padding: 0px;
+  }
+  .main{
+    text-align: center;
+    display: flex;
+    width: 100%;
+    height: 30em;
+    margin: auto;
+    background: linear-gradient(130deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+    color: white;
+  }
+  .main-elemanlar{
+    margin: 5% auto auto auto;
+  }
+  
+  .main-elemanlar #main-yazilar li p{
+    font-size: 18px;
+    margin-top: 10%;
+    width: 80%;
+  }
+  .main-elemanlar #main-butonlar {
+      display: unset;
+      justify-content: center;
+  }
+  #btn-kam1{
+  display: none;
+  }
+  .main-elemanlar #main-yazilar li h2{
+  font-size: 2.2rem;
+  margin: 0 auto;
+  width: 80%;
+  }
+  .nedir{
+  flex-direction: column-reverse;
+  display: flex;
+  width: 100%;
+  height: 38em;
+  margin: auto;
+  background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+  box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+  color: white;
+  
+  }
+  
+  .nedir-sol{
+  margin:auto;
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+  background-color:transparent;
+  width: 100%;
+  }
+  .nedir-sol ul{
+  padding:0;
+  width: 100%;
+  
+  
+  }
+  .nedir-sol ul li h2{
+  margin: 0 auto;
+  font-size: 2.2rem;
+  width: 85%;
+  
+  }
+  .nedir-sol ul li p{
+  margin: 0 auto;
+  width: 85%;
+  font-size: 17px;
+  }
+  .nedir-sol ul li{
+  display: flex;
+  margin: 0 auto;
+  }
+  .nedir-sag{
+  margin: auto;
+  display: flex;
+  background-color: transparent;
+  width: 60%;
+  }
+  
+  .nedir-sag img{
+  text-align: center;
+  margin: 5% 0%;
+  z-index: 3;
+  }
+  .btn-detay-genel{
+    width: 130px;
+    height: 55px;
+    font-size: 15px;
+    margin: 5% auto auto 7.5%;
+  }
+  
+  .hesaplama{
+  flex-direction:column;
+  display: flex;
+  width: 100%;
+  height: 38em;
+  margin: auto;
+  background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+  box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+  color: white;
+  
+  }
+  
+  .hesaplama-sag{
+  
+  margin:auto;
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+  background-color:transparent;
+  width: 100%;
+  }
+  .hesaplama-sag ul{
+  padding:0;
+  width: 100%;
+  }
+  .hesaplama-sag ul li h2{
+  margin: 5% auto;
+  font-size: 2.2rem;
+  width: 85%;
+  }
+  .hesaplama-sag ul li p{
+  margin: auto auto 5% auto;
+  width: 85%;
+  font-size: 17px;
+  }
+  .hesaplama-sag ul li button{
+  
+    width: 160px;
+    height: 50px;
+    border-radius: 40px;
+    border-style: none;
+    color: white;
+    background: rgb(194, 0, 194);
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 1s;
+  }
+  .hesaplama-sag ul li{
+  display: flex;
+  justify-content: center;
+  margin: 2% auto;
+  }
+  .hesaplama-sol{
+  margin: auto;
+  display: flex;
+  background-color: transparent;
+  width: 60%;
+  }
+  .hesaplama-sol img{
+  text-align: center;
+  margin: 5% auto;
+  z-index: 3;
+  }
+  .btn-g-hem{
+    display: block;
+    margin: auto auto 2% 7.5%;
+  }
+  .btn-g-detay{
+  display: none;
+  }
+  
+  
+  .avantaj{
+    width: 100%;
+    height: 120em;
+  }
+  .btn-detay-none{
+   display: none;
+  }
+  .avantaj-ust h2{
+      font-size: 2.0rem;
+      text-align: center;
+      width: 100%;
+      font-weight: 700;
+    }
+    .avantaj-orta h2{
+      font-size: 2.0rem;
+      width: 85%;
+      font-weight: 700;
+    }
+    .avantaj-orta p{
+      margin: auto auto 15% auto;
+      width: 85%;
+      font-size: 17px;
+    }
+   .birikim{
+     display: block;
+   }
+   .birikim ul{
+     width: 100%;
+   }
+   .birikim #birikim-ul1 li{
+      width: 100%;
+      margin: 0 auto;
+      justify-content: center;
+      text-align:center;
+   }
+   .birikim #birikim-ul2 li{
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    text-align:center;
+   }
+   .katki{
+    display: block;
+  }
+  .katki ul{
+    width: 100%;
+  }
+  .katki #katki-ul1 li{
+     width: 100%;
+     margin: 0 auto;
+     justify-content: center;
+     text-align:center;
+  }
+  .katki #katki-ul2 li{
+   width: 100%;
+   margin: 0 auto;
+   justify-content: center;
+   text-align:center;
+  }
+  
+  
+  .yas{
+    flex-direction:column;
+    display: flex;
+    width: 100%;
+    height: 36em;
+    margin: auto;
+    background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+    box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+    color: white;
+    
+  }
+  
+  .yas-sag{
+   
+  margin: 5% auto;
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+  background-color:transparent;
+  width: 100%;
+  }
+  .yas-sag ul{
+    padding:0;
+    width: 100%;
+  }
+  .yas-sag ul li h2{
+  margin: 0 auto;
+  font-size: 2.0rem;
+  width: 85%;
+  }
+  .yas-sag ul li p{
+    margin: auto auto 5% auto;
+    width: 85%;
+    font-size: 17px;
+  }
+  .yas-sag ul li button{
+  
+      width: 160px;
+      height: 50px;
+      border-radius: 40px;
+      border-style: none;
+      color: white;
+      background: rgb(194, 0, 194);
+      font-weight: 700;
+      font-size: 15px;
+      cursor: pointer;
+      transition: all 1s;
+      display: block;
+      margin: 5% auto auto 7.5%;
+  }
+  .yas-sag ul li{
+    display: flex;
+    
+    margin: 2% auto;
+  }
+  .yas-sol{
+  margin: 10% auto;
+  display: flex;
+  background-color: transparent;
+  width: 60%;
+  }
+  .yas-sol img{
+  text-align: center;
+  margin: 0 auto;
+  z-index: 3;
+  }
+  .footer-menu{
+    display: block;
+    width: 100%;
+    height: 9em;
+  }
+  .footer-branding{
+    justify-content: center;
+    height: 25%;
+    padding-top: 3%;
+    
+  }
+  
+  .footer-other{
+    justify-content: center;
+    padding-top: 1%;
+    
+  }
+  .footer-menu ul{
+    display: block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .footer-menu-links {
+        display: block;
+       
+  
+  }
+  
+  .footer-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .footer-menu ul li{
+    list-style: none;
+    display: block;
+    position: relative;
+    left :0px;
+    justify-content: center;
+    align-items: center;
+    margin: 2% auto;
+  
+  
+    
+  }
+  .footer-menu ul {
+    display: block;
+    margin-top: 5%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .logo{
+    margin: auto 0;
+  }
+  .logoname{
+    font-size: 22px;
+  }
+  .copyright{
+    height: 3em;
+  
+  }
+  .copyright p {
+    width: 70%;
+    text-align: center;
+    font-size: 13px;
+  }
+  
+}
+/********************************************************************************************/
+/********************************************************************************************/
+/********************************************************************************************/
+/********************************************************************************************/
+/********************************************************************************************/
+
+@media only screen and  (min-width: 321px) and (max-width:360px){
+
+  .menu__btn{
+     display: flex;
+     z-index: 3;
+   
+   }
+   .menu__box{
+     z-index: 2;
+   }
+   #menu__toggle{
+     display: none;
+     visibility: hidden;
+   }
+   .btn-basvur{
+     z-index: 3;
+     width: 120px;
+     height: 35px;
+     font-size: 11px;
+     margin-left: 0%;
+     margin-right: 5%;
+     border-radius: 40px;
+   }
+   .a-menubox{
+       font-size: 1.5rem;
+       font-weight: 800;
+   }
+   .p-genel2{
+       font-size: 15px;
+       font-weight: 500;
+   }
+   
+   .btn-kamp{
+     display: none;
+   }
+   .header-top{
+     width: 100%;
+   }
+   .navbar-links{
+     display: none;
+   }
+   .navbar-branding{
+     margin-left:1%;
+     z-index: 3;
+     width: 50%;
+     font-size: 15px;
+     font-weight: 800;
+     justify-content: flex-start;
+     
+ }  
+ .brand-name a{
+   font-size: 18px;
+   font-weight: 700;
+   width: 70%;
+ }
+ .navbar-btn-group{
+   width: 50%;
+   justify-content: flex-end;
+   margin-right: 2%;
+ }
+ .sticky + .main{
+   padding: 0px;
+ }
+ .main{
+   text-align: center;
+   display: flex;
+   width: 100%;
+   height: 30em;
+   margin: auto;
+   background: linear-gradient(130deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+   color: white;
+ }
+ .main-elemanlar{
+   margin: 15% auto auto auto;
+ }
+ 
+ .main-elemanlar #main-yazilar li p{
+   font-size: 1.1em;
+   margin-top: 5%;
+   width: 80%;
+}
+#btn-kam1{
+ display: none;
+}
+.main-elemanlar #main-yazilar li h2{
+ font-size: 2rem;
+ margin: 0 auto;
+ width: 80%;
+}
+.nedir{
+ flex-direction: column-reverse;
+ display: flex;
+ width: 100%;
+ height: 35em;
+ margin: 0 auto;
+ background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+ box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+ color: white;
+}
+
+.nedir-sol{
+margin: auto;
+display: flex;
+text-align: left;
+justify-content: space-evenly;
+background-color:transparent;
+width: 100%;
+}
+.nedir-sol ul{
+ padding:0;
+ width: 100%;
+ 
+ 
+}
+.nedir-sol ul li h2{
+margin: 0 auto;
+font-size: 2rem;
+width: 80%;
+
+}
+.nedir-sol ul li p{
+ margin: 0 auto;
+ width: 80%;
+ font-size: 1rem;
+}
+.nedir-sol ul li{
+ display: flex;
+ justify-content: center;
+ margin: 2% auto;
+}
+.nedir-sag{
+margin: 5% auto;
+display: flex;
+background-color: transparent;
+width: 60%;
+
+}
+
+.nedir-sag img{
+text-align: center;
+margin-right: 0;
+z-index: 1;
+}
+
+.hesaplama{
+ flex-direction:column;
+ display: flex;
+ width: 100%;
+ height: 30em;
+ margin: auto;
+ background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+ box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+ color: white;
+ 
+}
+
+.hesaplama-sag{
+
+margin:auto;
+display: flex;
+text-align: left;
+justify-content: space-evenly;
+background-color:transparent;
+width: 100%;
+}
+.hesaplama-sag ul{
+ padding:0;
+ width: 100%;
+}
+.hesaplama-sag ul li h2{
+margin: 0 auto;
+font-size: 2rem;
+width: 85%;
+}
+.hesaplama-sag ul li p{
+ margin: auto auto 10% auto;
+ width: 85%;
+ font-size: 1rem;
+}
+.hesaplama-sag ul li button{
+
+   width: 160px;
+   height: 50px;
+   border-radius: 40px;
+   border-style: none;
+   color: white;
+   background: rgb(194, 0, 194);
+   font-weight: 700;
+   font-size: 15px;
+   cursor: pointer;
+   transition: all 1s;
+}
+.hesaplama-sag ul li{
+ display: flex;
+ justify-content: center;
+ margin: 2% auto;
+}
+.hesaplama-sol{
+margin: 5% auto;
+display: flex;
+background-color: transparent;
+width: 60%;
+}
+.hesaplama-sol img{
+text-align: center;
+margin: 0 auto;
+z-index: 3;
+}
+.btn-g-hem{
+   display: block;
+   margin: auto auto 20% auto;
+}
+.btn-g-detay{
+ display: none;
+}
+
+
+
+.avantaj{
+ width: 100%;
+ display: inline-block;
+ height:1950px;
+}
+.btn-detay-none{
+  display: none;
+}
+ .avantaj-ust h2{
+     font-size: 2.0rem;
+     text-align: center;
+     width: 100%;
+     font-weight: 700;
+   }
+   .avantaj-orta h2{
+     font-size: 2.0rem;
+     width: 85%;
+     font-weight: 700;
+   }
+   .avantaj-orta p{
+     margin: auto auto 15% auto;
+     width: 85%;
+     font-size: 17px;
+   }
+  .birikim{
+    display: block;
+  }
+  .birikim ul{
+    width: 100%;
+  }
+  .birikim #birikim-ul1 li{
+     width: 100%;
+     margin: 0 auto;
+     justify-content: center;
+     text-align:center;
+  }
+  .birikim #birikim-ul2 li{
+   width: 100%;
+   margin: 0 auto;
+   justify-content: center;
+   text-align:center;
+  }
+  .katki{
+   display: block;
+ }
+ .katki ul{
+   width: 100%;
+ }
+ .katki #katki-ul1 li{
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    text-align:center;
+ }
+ .katki #katki-ul2 li{
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  text-align:center;
+ }
+
+
+ .yas{
+   flex-direction:column;
+   display: flex;
+   width: 100%;
+   height: 30em;
+   margin: auto;
+   background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+   box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+   color: white;
+   
+ }
+ 
+ .yas-sag{
+  
+ margin:auto;
+ display: flex;
+ text-align: left;
+ justify-content: space-evenly;
+ background-color:transparent;
+ width: 100%;
+ }
+ .yas-sag ul{
+   padding:0;
+   width: 100%;
+ }
+ .yas-sag ul li h2{
+ margin: 0 auto;
+ font-size: 2rem;
+ width: 85%;
+ }
+ .yas-sag ul li p{
+   margin: auto auto 10% auto;
+   width: 85%;
+   font-size: 1em;
+ }
+ .yas-sag ul li button{
+ 
+     width: 160px;
+     height: 50px;
+     border-radius: 40px;
+     border-style: none;
+     color: white;
+     background: rgb(194, 0, 194);
+     font-weight: 700;
+     font-size: 15px;
+     cursor: pointer;
+     transition: all 1s;
+ }
+ .yas-sag ul li{
+   display: flex;
+   justify-content: center;
+   margin: 2% auto;
+ }
+ .yas-sol{
+ margin: auto;
+ display: flex;
+ background-color: transparent;
+ width: 60%;
+ }
+ .yas-sol img{
+ text-align: center;
+ margin: 0 auto;
+ z-index: 3;
+ }
+ .footer-menu{
+   display: block;
+   width: 100%;
+   height: 10em;
+ }
+ .footer-branding{
+   justify-content: center;
+   height: 25%;
+   padding-top: 3%;
+   
+ }
+ 
+ .footer-other{
+   justify-content: center;
+   padding-top: 1%;
+   
+ }
+ .footer-menu ul{
+   display: block;
+   position: relative;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin: 0 auto;
+ }
+ .footer-menu-links {
+       display: block;
+      
+
+ }
+ 
+ .footer-menu ul li a{
+   text-decoration: none;
+   color: white;
+   font-size: 1.1em;
+   font-weight: 300;
+   margin: 0 auto;
+   text-align: center;
+ }
+ .footer-menu ul li{
+   list-style: none;
+   display: block;
+   position: relative;
+   left :0px;
+   justify-content: center;
+   align-items: center;
+   margin: 2% auto;
+
+ 
+   
+ }
+ .footer-menu ul {
+   display: block;
+   margin-top: 5%;
+   position: relative;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin: 0 auto;
+ }
+ 
+ .logo{
+   margin: auto 0;
+ }
+ .copyright{
+   height: 3em;
+
+ }
+ .copyright p {
+   width: 70%;
+   text-align: center;
+   font-size: 0.7em;
+ }
+ 
+}
+ /***************************************************************************************************/     
+ /***************************************************************************************************/     
+ /***************************************************************************************************/     
+ /***************************************************************************************************/     
+ /***************************************************************************************************/ 
+  @media only screen and (min-width: 361px) and (max-width: 460px){
+
+    .menu__btn{
+      display: flex;
+      z-index: 4;
+    }
+    .menu__box{
+      z-index: 3;
+    }
+    #menu__toggle{
+      display: none;
+      visibility: hidden;
+    }
+    .btn-basvur{
+      z-index: 4;
+      width: 120px;
+      height: 35px;
+      font-size: 13px;
+      margin-left: 0%;
+      margin-right: 5%;
+      border-radius: 40px;
+    }
+    .a-menubox{
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+    .p-genel2{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    .btn-kamp{
+      display: none;
+    }
+    .header-top{
+      width: 100%;
+    }
+    .navbar-links{
+      display: none;
+    }
+    .navbar-branding{
+      margin-left:1%;
+      z-index: 4;
+      width: 50%;
+      font-size: 15px;
+      font-weight: 800;
+      justify-content: flex-start;
+      
+  }  
+  .brand-name a{
+    font-size: 18px;
+    font-weight: 700;
+    width: 70%;
+  }
+  .navbar-btn-group{
+    width: 50%;
+    justify-content: flex-end;
+    margin-right: 2%;
+  }
+  .sticky + .main{
+    padding: 0px;
+  }
+  .main{
+    text-align: center;
+    display: flex;
+    width: 100%;
+    height: 35em;
+    margin: auto;
+    background: linear-gradient(130deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+    color: white;
+  }
+  .main-elemanlar{
+    margin: 15% auto auto auto;
+  }
+  
+  .main-elemanlar #main-yazilar li p{
+    font-size: 20px;
+    margin-top: 10%;
+  
+    width: 80%;
+  }
+  #btn-kam1{
+  display: none;
+  }
+  .main-elemanlar #main-yazilar li h2{
+  font-size: 2.5rem;
+  margin: 0 auto;
+  width: 80%;
+  }
+  .nedir{
+  flex-direction: column-reverse;
+  display: flex;
+  width: 100%;
+  height: 700px;
+  margin: auto;
+  background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+  box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+  color: white;
+  
+  }
+  
+  .nedir-sol{
+  margin:auto;
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+  background-color:transparent;
+  width: 100%;
+  }
+  .nedir-sol ul{
+  padding:0;
+  width: 100%;
+  
+  
+  }
+  .nedir-sol ul li h2{
+  margin: 0 auto;
+  font-size: 2.5rem;
+  width: 80%;
+  
+  }
+  .nedir-sol ul li p{
+  margin: 0 auto;
+  width: 80%;
+  font-size: 20px;
+  }
+  .nedir-sol ul li{
+  display: flex;
+  justify-content: center;
+  margin: 2% auto;
+  }
+  .nedir-sag{
+  margin: auto;
+  display: flex;
+  background-color: transparent;
+  width: 60%;
+  }
+  
+  .nedir-sag img{
+  text-align: center;
+  z-index: 2;
+  }
+  
+  .hesaplama{
+  flex-direction:column;
+  display: flex;
+  width: 100%;
+  height: 37em;
+  margin: auto;
+  background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+  box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+  color: white;
+  
+  }
+  
+  .hesaplama-sag{
+  
+  margin:auto;
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+  background-color:transparent;
+  width: 100%;
+  }
+  .hesaplama-sag ul{
+  padding:0;
+  width: 100%;
+  }
+  .hesaplama-sag ul li h2{
+  margin: 0 auto;
+  font-size: 2.5rem;
+  width: 85%;
+  }
+  .hesaplama-sag ul li p{
+  margin: auto auto 10% auto;
+  width: 85%;
+  font-size: 20px;
+  }
+  .hesaplama-sag ul li button{
+  
+    width: 170px;
+    height: 60px;
+    border-radius: 40px;
+    border-style: none;
+    color: white;
+    background: rgb(194, 0, 194);
+    font-weight: 700;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all 1s;
+  }
+  .hesaplama-sag ul li{
+  display: flex;
+  justify-content: center;
+  margin: 2% auto;
+  }
+  .hesaplama-sol{
+  margin: 5% auto;
+  display: flex;
+  background-color: transparent;
+  width: 60%;
+  }
+  .hesaplama-sol img{
+  text-align: center;
+  margin: 0 auto;
+  z-index: 3;
+  }
+  .btn-g-hem{
+    display: block;
+    margin: auto auto 20% auto;
+  }
+  .btn-g-detay{
+  display: none;
+  }
+  
+  
+  
+  .avantaj{
+  width: 100%;
+  display: inline-block;
+  height: 123em;
+  }
+  .btn-detay-none{
+   display: none;
+  }
+  .avantaj-ust h2{
+      font-size: 2.0rem;
+      text-align: center;
+      width: 100%;
+      font-weight: 700;
+    }
+    .avantaj-orta h2{
+      font-size: 2.0rem;
+      width: 85%;
+      font-weight: 700;
+    }
+    .avantaj-orta p{
+      margin: auto auto 15% auto;
+      width: 85%;
+      font-size: 20px;
+    }
+   .birikim{
+     display: block;
+   }
+   .birikim ul{
+     width: 100%;
+   }
+   .birikim #birikim-ul1 li{
+      width: 100%;
+      margin: 0 auto;
+      justify-content: center;
+      text-align:center;
+   }
+   .birikim #birikim-ul2 li{
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    text-align:center;
+   }
+   .katki{
+    display: block;
+  }
+  .katki ul{
+    width: 100%;
+  }
+  .katki #katki-ul1 li{
+     width: 100%;
+     margin: 0 auto;
+     justify-content: center;
+     text-align:center;
+  }
+  .katki #katki-ul2 li{
+   width: 100%;
+   margin: 0 auto;
+   justify-content: center;
+   text-align:center;
+  }
+  
+  
+  .yas{
+    flex-direction:column;
+    display: flex;
+    width: 100%;
+    height: 650px;
+    margin: auto;
+    background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+    box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+    color: white;
+    
+  }
+  
+  .yas-sag{
+   
+  margin:auto;
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+  background-color:transparent;
+  width: 100%;
+  }
+  .yas-sag ul{
+    padding:0;
+    width: 100%;
+  }
+  .yas-sag ul li h2{
+  margin: 0 auto;
+  font-size: 2.5rem;
+  width: 85%;
+  }
+  .yas-sag ul li p{
+    margin: auto auto 10% auto;
+    width: 85%;
+    font-size: 20px;
+  }
+  .yas-sag ul li button{
+  
+      width: 170px;
+      height: 60px;
+      border-radius: 40px;
+      border-style: none;
+      color: white;
+      background: rgb(194, 0, 194);
+      font-weight: 700;
+      font-size: 17px;
+      cursor: pointer;
+      transition: all 1s;
+  }
+  .yas-sag ul li{
+    display: flex;
+    justify-content: center;
+    margin: 2% auto;
+  }
+  .yas-sol{
+  margin: auto;
+  display: flex;
+  background-color: transparent;
+  width: 60%;
+  }
+  .yas-sol img{
+  text-align: center;
+  margin: 0 auto;
+  z-index: 3;
+  }
+  .footer-menu{
+    display: block;
+    width: 100%;
+    height: 175px;
+  }
+  .footer-branding{
+    justify-content: center;
+    height: 25%;
+    padding-top: 3%;
+    
+  }
+  
+  .footer-other{
+    justify-content: center;
+    padding-top: 1%;
+    
+  }
+  .footer-menu ul{
+    display: block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .footer-menu-links {
+        display: block;
+       
+  
+  }
+  
+  .footer-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .footer-menu ul li{
+    list-style: none;
+    display: block;
+    position: relative;
+    left :0px;
+    justify-content: center;
+    align-items: center;
+    margin: 2% auto;
+  
+  
+    
+  }
+  .footer-menu ul {
+    display: block;
+    margin-top: 5%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .logo{
+    margin: auto 0;
+  }
+  .copyright{
+    height: 60px;
+  
+  }
+  .copyright p {
+    width: 70%;
+    text-align: center;
+    font-size: 15px;
+  }
+  
+ }
+ 
+ /***************************************************************************************************/     
+ /***************************************************************************************************/     
+ /***************************************************************************************************/     
+ /***************************************************************************************************/     
+ /***************************************************************************************************/ 
+ @media only screen and (min-width: 461px) and (max-width: 600px){
+
+  .menu__btn{
+    display: flex;
+    z-index: 5;
+  
+  }
+  .menu__box{
+    z-index: 4;
+  }
+  #menu__toggle{
+    display: none;
+    visibility: hidden;
+  }
+  .btn-basvur{
+    z-index: 5;
+    width: 120px;
+    height: 35px;
+    font-size: 11px;
+    margin-left: 0%;
+    margin-right: 5%;
+    border-radius: 40px;
+  }
+  .a-menubox{
+      font-size: 1.5rem;
+      font-weight: 800;
+  }
+  .p-genel2{
+      font-size: 15px;
+      font-weight: 500;
+  }
+  
+  .btn-kamp{
+    display: none;
+  }
+  .header-top{
+    width: 100%;
+  }
+  .navbar-links{
+    display: none;
+  }
+  .navbar-branding{
+    margin-left:1%;
+    z-index: 5;
+    width: 50%;
+    font-size: 15px;
+    font-weight: 800;
+    justify-content: flex-start;
+    
+}  
+.brand-name a{
+  font-size: 18px;
+  font-weight: 700;
+  width: 70%;
+}
+.navbar-btn-group{
+  width: 50%;
+  justify-content: flex-end;
+  margin-right: 2%;
+}
+.sticky + .main{
+  padding: 0px;
+}
+.main{
+  text-align: center;
+  display: flex;
+  width: 100%;
+  height: 35em;
+  margin: auto;
+  background: linear-gradient(130deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+  color: white;
+}
+.main-elemanlar{
+  margin: 15% auto auto auto;
+}
+
+.main-elemanlar #main-yazilar li p{
+  font-size: 20px;
+  margin-top: 10%;
+
+  width: 80%;
+}
+#btn-kam1{
+display: none;
+}
+.main-elemanlar #main-yazilar li h2{
+font-size: 2.5rem;
+margin: 0 auto;
+width: 80%;
+}
+.nedir{
+flex-direction: column-reverse;
+display: flex;
+width: 100%;
+height: 700px;
+margin: auto;
+background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+color: white;
+
+}
+
+.nedir-sol{
+margin:auto;
+display: flex;
+text-align: left;
+justify-content: space-evenly;
+background-color:transparent;
+width: 100%;
+}
+.nedir-sol ul{
+padding:0;
+width: 100%;
+
+
+}
+.nedir-sol ul li h2{
+margin: 0 auto;
+font-size: 2.5rem;
+width: 80%;
+
+}
+.nedir-sol ul li p{
+margin: 0 auto;
+width: 80%;
+font-size: 20px;
+}
+.nedir-sol ul li{
+display: flex;
+justify-content: center;
+margin: 2% auto;
+}
+.nedir-sag{
+margin: auto;
+display: flex;
+background-color: transparent;
+width: 60%;
+}
+
+.nedir-sag img{
+text-align: center;
+z-index: 3;
+}
+
+.hesaplama{
+flex-direction:column;
+display: flex;
+width: 100%;
+height: 650px;
+margin: auto;
+background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+color: white;
+
+}
+
+.hesaplama-sag{
+
+margin:auto;
+display: flex;
+text-align: left;
+justify-content: space-evenly;
+background-color:transparent;
+width: 100%;
+}
+.hesaplama-sag ul{
+padding:0;
+width: 100%;
+}
+.hesaplama-sag ul li h2{
+margin: 0 auto;
+font-size: 2.5rem;
+width: 85%;
+}
+.hesaplama-sag ul li p{
+margin: auto auto 1% auto;
+width: 85%;
+font-size: 20px;
+}
+.hesaplama-sag ul li button{
+
+  width: 160px;
+  height: 50px;
+  border-radius: 40px;
+  border-style: none;
+  color: white;
+  background: rgb(194, 0, 194);
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 1s;
+}
+.hesaplama-sag ul li{
+display: flex;
+justify-content: center;
+margin: 2% auto;
+}
+.hesaplama-sol{
+margin: 5% auto;
+display: flex;
+background-color: transparent;
+width: 60%;
+}
+.hesaplama-sol img{
+text-align: center;
+margin: 0 auto;
+z-index: 3;
+}
+.btn-g-hem{
+  display: block;
+  margin: auto auto 20% auto;
+}
+.btn-g-detay{
+display: none;
+}
+
+
+
+.avantaj{
+width: 100%;
+display: inline-block;
+height: 130em;
+}
+.btn-detay-none{
+ display: none;
+}
+.avantaj-ust h2{
+    font-size: 2.0rem;
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+  }
+  .avantaj-orta h2{
+    font-size: 2.0rem;
+    width: 85%;
+    font-weight: 700;
+  }
+  .avantaj-orta p{
+    margin: auto auto 15% auto;
+    width: 85%;
+    font-size: 20px;
+  }
+ .birikim{
+   display: block;
+ }
+ .birikim ul{
+   width: 100%;
+ }
+ .birikim #birikim-ul1 li{
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    text-align:center;
+ }
+ .birikim #birikim-ul2 li{
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  text-align:center;
+ }
+ .katki{
+  display: block;
+}
+.katki ul{
+  width: 100%;
+}
+.katki #katki-ul1 li{
+   width: 100%;
+   margin: 0 auto;
+   justify-content: center;
+   text-align:center;
+}
+.katki #katki-ul2 li{
+ width: 100%;
+ margin: 0 auto;
+ justify-content: center;
+ text-align:center;
+}
+
+
+.yas{
+  flex-direction:column;
+  display: flex;
+  width: 100%;
+  height: 42em;
+  margin: auto;
+  background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+  box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+  color: white;
+  
+}
+
+.yas-sag{
+ 
+margin:auto;
+display: flex;
+text-align: left;
+justify-content: space-evenly;
+background-color:transparent;
+width: 100%;
+}
+.yas-sag ul{
+  padding:0;
+  width: 100%;
+}
+.yas-sag ul li h2{
+margin: 0 auto;
+font-size: 2.5rem;
+width: 85%;
+}
+.yas-sag ul li p{
+  margin: auto auto 10% auto;
+  width: 85%;
+  font-size: 20px;
+}
+.yas-sag ul li button{
+
+    width: 160px;
+    height: 50px;
+    border-radius: 40px;
+    border-style: none;
+    color: white;
+    background: rgb(194, 0, 194);
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 1s;
+}
+.yas-sag ul li{
+  display: flex;
+  justify-content: center;
+  margin: 2% auto;
+}
+.yas-sol{
+margin: auto;
+display: flex;
+background-color: transparent;
+width: 60%;
+}
+.yas-sol img{
+text-align: center;
+margin: 0 auto;
+z-index: 3;
+}
+.footer-menu{
+  display: block;
+  width: 100%;
+  height: 12em;
+}
+.footer-branding{
+  justify-content: center;
+  height: 25%;
+  padding-top: 3%;
+  
+}
+
+.footer-other{
+  justify-content: center;
+  padding-top: 1%;
+  
+}
+.footer-menu ul{
+  display: block;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+.footer-menu-links {
+      display: block;
+     
+
+}
+
+.footer-menu ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-weight: 300;
+  margin: 0 auto;
+  text-align: center;
+}
+.footer-menu ul li{
+  list-style: none;
+  display: block;
+  position: relative;
+  left :0px;
+  justify-content: center;
+  align-items: center;
+  margin: 2% auto;
+
+
+  
+}
+.footer-menu ul {
+  display: block;
+  margin-top: 5%;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.logo{
+  margin: auto 0;
+}
+.copyright{
+  height: 60px;
+
+}
+.copyright p {
+  width: 70%;
+  text-align: center;
+  font-size: 1rem;
+}
+
+}
+ /***************************************************************************************************/     
+ /***************************************************************************************************/     
+ /***************************************************************************************************/     
+ /***************************************************************************************************/     
+ /***************************************************************************************************/ 
+
+ @media only screen and (min-width: 601px) and (max-width: 768px){
+
+  .menu__btn{
+    display: flex;
+    z-index: 5;
+  }
+  .menu__box{
+    z-index: 4;
+  }
+
+  #menu__toggle{
+    display: none;
+    visibility: hidden;
+  }
+  .btn-detay-genel{
+    width: 180px;
+    height: 70px;
+    font-size: 1.5rem;
+  }
+  .btn-basvur{
+    z-index: 5;
+    width: 120px;
+    height: 35px;
+    font-size: 11px;
+    margin-left: 0%;
+    margin-right: 5%;
+    border-radius: 40px;
+  }
+  .a-menubox{
+      font-size: 2.5rem;
+      font-weight: 800;
+  }
+  .p-genel2{
+      font-size: 15px;
+      font-weight: 500;
+  }
+  
+  .btn-kamp{
+    display: none;
+  }
+  .header-top{
+    width: 100%;
+  }
+  .navbar-links{
+    display: none;
+  }
+  .navbar-branding{
+    margin-left:1%;
+    z-index: 5;
+    width: 50%;
+    font-size: 15px;
+    font-weight: 800;
+    justify-content: flex-start;
+    
+}  
+.brand-name a{
+  font-size: 18px;
+  font-weight: 700;
+  width: 70%;
+}
+.navbar-btn-group{
+  width: 50%;
+  justify-content: flex-end;
+  margin-right: 2%;
+}
+.sticky + .main{
+  padding: 0px;
+}
+.main{
+  text-align: center;
+  display: flex;
+  width: 100%;
+  height: 40em;
+  margin: auto;
+  background: linear-gradient(130deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+  color: white;
+}
+.main-elemanlar{
+  margin: 15% auto auto auto;
+}
+
+.main-elemanlar #main-yazilar li p{
+  font-size: 1.6rem;
+  margin-top: 5%;
+  width: 80%;
+}
+#btn-kam1{
+display: none;
+}
+.main-elemanlar #main-butonlar #btn-hem1{
+      font-size: 1.5rem;
+      width: 260px;
+      height: 90px;
+      border-radius: 50px;
+}
+.main-elemanlar #main-yazilar li h2{
+font-size: 3rem;
+margin: 0 auto;
+width: 80%;
+}
+.nedir{
+flex-direction: column-reverse;
+display: flex;
+width: 100%;
+height: 55em;
+margin: auto;
+background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+color: white;
+
+}
+
+.nedir-sol{
+margin:auto;
+display: flex;
+text-align: left;
+justify-content: space-evenly;
+background-color:transparent;
+width: 100%;
+}
+.nedir-sol ul{
+padding:0;
+width: 100%;
+
+
+}
+.nedir-sol ul li h2{
+margin: 0 auto;
+font-size: 3rem;
+width: 80%;
+
+}
+.nedir-sol ul li p{
+margin: 0 auto;
+width: 80%;
+font-size: 1.6rem;
+}
+.nedir-sol ul li{
+display: flex;
+justify-content: center;
+margin: 2% auto;
+}
+.nedir-sag{
+margin: auto;
+display: flex;
+background-color: transparent;
+width: 60%;
+}
+
+.nedir-sag img{
+text-align: center;
+z-index: 3;
+}
+
+.hesaplama{
+flex-direction:column;
+display: flex;
+width: 100%;
+height: 55em;
+margin: auto;
+background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+color: white;
+
+}
+
+.hesaplama-sag{
+
+margin:auto;
+display: flex;
+text-align: left;
+justify-content: space-evenly;
+background-color:transparent;
+width: 100%;
+}
+.hesaplama-sag ul{
+padding:0;
+width: 100%;
+}
+.hesaplama-sag ul li h2{
+margin: 0 auto;
+font-size: 3rem;
+width: 85%;
+}
+.hesaplama-sag ul li p{
+margin: auto auto 1% auto;
+width: 85%;
+font-size: 1.6rem;
+}
+.hesaplama-sag ul li button{
+
+  width: 260px;
+  height: 90px;
+  border-radius: 50px;
+  border-style: none;
+  color: white;
+  background: rgb(194, 0, 194);
+  font-weight: 700;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 1s;
+}
+.hesaplama-sag ul li{
+display: flex;
+justify-content: center;
+margin: 2% auto;
+}
+.hesaplama-sol{
+margin: 5% auto;
+display: flex;
+background-color: transparent;
+width: 60%;
+}
+.hesaplama-sol img{
+text-align: center;
+margin: 0 auto;
+z-index: 3;
+}
+.btn-g-hem{
+  display: block;
+  margin: auto auto 20% auto;
+}
+.btn-g-detay{
+display: none;
+}
+
+
+
+.avantaj{
+width: 100%;
+display: inline-block;
+height: 150em;
+}
+.btn-detay-none{
+ display: none;
+}
+.avantaj-ust h2{
+    font-size: 3rem;
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+  }
+  .avantaj-orta h2{
+    font-size: 3rem;
+    width: 85%;
+    font-weight: 700;
+  }
+  .avantaj-orta p{
+    margin: auto auto 15% auto;
+    width: 85%;
+    font-size: 1.6rem;
+  }
+  .avantaj-orta img{
+    margin-bottom: 10%;
+  }
+ .birikim{
+   display: block;
+ }
+ .birikim ul{
+   width: 100%;
+ }
+ .birikim #birikim-ul1 li{
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    text-align:center;
+ }
+ .birikim #birikim-ul2 li{
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  text-align:center;
+ }
+ .katki{
+  display: block;
+}
+.katki ul{
+  width: 100%;
+}
+.katki #katki-ul1 li{
+   width: 100%;
+   margin: 0 auto;
+   justify-content: center;
+   text-align:center;
+}
+.katki #katki-ul2 li{
+ width: 100%;
+ margin: 0 auto;
+ justify-content: center;
+ text-align:center;
+}
+
+
+.yas{
+  flex-direction:column;
+  display: flex;
+  width: 100%;
+  height: 55em;
+  margin: auto;
+  background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+  box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+  color: white;
+  
+}
+
+.yas-sag{
+ 
+margin:auto;
+display: flex;
+text-align: left;
+justify-content: space-evenly;
+background-color:transparent;
+width: 100%;
+}
+.yas-sag ul{
+  padding:0;
+  width: 100%;
+}
+.yas-sag ul li h2{
+margin: 0 auto;
+font-size: 3rem;
+width: 85%;
+}
+.yas-sag ul li p{
+  margin: auto auto 5% auto;
+  width: 85%;
+  font-size: 1.6rem;
+}
+.yas-sag ul li button{
+
+    width: 260px;
+    height: 90px;
+    border-radius: 50px;
+    border-style: none;
+    color: white;
+    background: rgb(194, 0, 194);
+    font-weight: 700;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 1s;
+}
+.yas-sag ul li{
+  display: flex;
+  justify-content: center;
+  margin: 2% auto;
+}
+.yas-sol{
+margin: 5% auto;
+display: flex;
+background-color: transparent;
+width: 60%;
+}
+.yas-sol img{
+text-align: center;
+margin: 0 auto;
+z-index: 3;
+}
+.footer-menu{
+  display: block;
+  width: 100%;
+  height: 15em;
+}
+.footer-branding{
+  justify-content: center;
+  height: 25%;
+  padding-top: 1%;
+  
+}
+
+.footer-other{
+  justify-content: center;
+  padding-top: 1%;
+  
+}
+.footer-menu ul{
+  display: block;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+.footer-menu-links {
+      display: block;
+}
+
+.footer-menu ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin: 0 auto;
+  text-align: center;
+}
+.footer-menu ul li{
+  list-style: none;
+  display: block;
+  position: relative;
+  left :0px;
+  justify-content: center;
+  align-items: center;
+  margin: 2% auto;
+
+
+  
+}
+.footer-menu ul {
+  display: block;
+  margin-top: 5%;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.logo{
+  margin: auto 0;
+}
+.copyright{
+  height: 4em;
+
+}
+.copyright p {
+  width: 45%;
+  text-align: center;
+  font-size: 1rem;
+}
+
+}
+/***************************************************************************************************/     
+ /***************************************************************************************************/     
+ /***************************************************************************************************/     
+ /***************************************************************************************************/     
+ /***************************************************************************************************/ 
+
+ @media only screen and (min-width: 769px) and (max-width: 961px){
+
+  .menu__btn{
+    display: flex;
+    z-index: 5;
+  }
+  .menu__box{
+    z-index: 4;
+  }
+
+  #menu__toggle{
+    display: none;
+    visibility: hidden;
+  }
+  .btn-detay-genel{
+    width: 180px;
+    height: 70px;
+    font-size: 1.5rem;
+  }
+  .btn-basvur{
+    z-index: 5;
+    width: 120px;
+    height: 35px;
+    font-size: 11px;
+    margin-left: 0%;
+    margin-right: 5%;
+    border-radius: 40px;
+  }
+  .a-menubox{
+      font-size: 2.5rem;
+      font-weight: 800;
+  }
+  .p-genel2{
+      font-size: 15px;
+      font-weight: 500;
+  }
+  
+  .btn-kamp{
+    display: none;
+  }
+  .header-top{
+    width: 100%;
+  }
+  .navbar-links{
+    display: none;
+  }
+  .navbar-branding{
+    margin-left:1%;
+    z-index: 5;
+    width: 50%;
+    font-size: 15px;
+    font-weight: 800;
+    justify-content: flex-start;
+    
+}  
+.brand-name a{
+  font-size: 18px;
+  font-weight: 700;
+  width: 70%;
+}
+.navbar-btn-group{
+  width: 50%;
+  justify-content: flex-end;
+  margin-right: 2%;
+}
+.sticky + .main{
+  padding: 0px;
+}
+.main{
+  text-align: center;
+  display: flex;
+  width: 100%;
+  height: 40em;
+  margin: auto;
+  background: linear-gradient(130deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+  color: white;
+}
+.main-elemanlar{
+  margin: 10% auto auto auto;
+}
+
+.main-elemanlar #main-yazilar li p{
+  font-size: 1.6rem;
+  margin-top: 5%;
+  width: 80%;
+}
+#btn-kam1{
+display: none;
+}
+.main-elemanlar #main-butonlar #btn-hem1{
+      font-size: 1.5rem;
+      width: 260px;
+      height: 90px;
+      border-radius: 50px;
+}
+.main-elemanlar #main-yazilar li h2{
+font-size: 3rem;
+margin: 0 auto;
+width: 80%;
+}
+.nedir{
+flex-direction: column-reverse;
+display: flex;
+width: 100%;
+height: 55em;
+margin: auto;
+background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+color: white;
+
+}
+
+.nedir-sol{
+margin:auto;
+display: flex;
+text-align: left;
+justify-content: space-evenly;
+background-color:transparent;
+width: 100%;
+}
+.nedir-sol ul{
+padding:0;
+width: 100%;
+
+
+}
+.nedir-sol ul li h2{
+margin: 0 auto;
+font-size: 3rem;
+width: 80%;
+
+}
+.nedir-sol ul li p{
+margin: 0 auto;
+width: 80%;
+font-size: 1.6rem;
+}
+.nedir-sol ul li{
+display: flex;
+justify-content: center;
+margin: 2% auto;
+}
+.nedir-sag{
+margin: auto;
+display: flex;
+background-color: transparent;
+width: 60%;
+}
+
+.nedir-sag img{
+text-align: center;
+z-index: 3;
+}
+
+.hesaplama{
+flex-direction:column;
+display: flex;
+width: 100%;
+height: 60em;
+margin: auto;
+background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+color: white;
+
+}
+
+.hesaplama-sag{
+
+margin:auto;
+display: flex;
+text-align: left;
+justify-content: space-evenly;
+background-color:transparent;
+width: 100%;
+}
+.hesaplama-sag ul{
+padding:0;
+width: 100%;
+}
+.hesaplama-sag ul li h2{
+margin: 0 auto;
+font-size: 3rem;
+width: 85%;
+}
+.hesaplama-sag ul li p{
+margin: auto auto 1% auto;
+width: 85%;
+font-size: 1.6rem;
+}
+.hesaplama-sag ul li button{
+
+  width: 260px;
+  height: 90px;
+  border-radius: 50px;
+  border-style: none;
+  color: white;
+  background: rgb(194, 0, 194);
+  font-weight: 700;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 1s;
+}
+.hesaplama-sag ul li{
+display: flex;
+justify-content: center;
+margin: 2% auto;
+}
+.hesaplama-sol{
+margin: 5% auto;
+display: flex;
+background-color: transparent;
+width: 60%;
+}
+.hesaplama-sol img{
+text-align: center;
+margin: 0 auto;
+z-index: 3;
+}
+.btn-g-hem{
+  display: block;
+  margin: auto auto 20% auto;
+}
+.btn-g-detay{
+display: none;
+}
+
+
+
+.avantaj{
+width: 100%;
+display: inline-block;
+height: 148em;
+}
+.btn-detay-none{
+ display: none;
+}
+.avantaj-ust h2{
+    font-size: 3rem;
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+  }
+  .avantaj-orta h2{
+    font-size: 3rem;
+    width: 85%;
+    font-weight: 700;
+  }
+  .avantaj-orta p{
+    margin: auto auto 15% auto;
+    width: 85%;
+    font-size: 1.6rem;
+  }
+  .avantaj-orta img{
+    margin-bottom: 5%;
+  }
+ .birikim{
+   display: block;
+ }
+ .birikim ul{
+   width: 100%;
+ }
+ .birikim #birikim-ul1 li{
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    text-align:center;
+ }
+ .birikim #birikim-ul2 li{
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  text-align:center;
+ }
+ .katki{
+  display: block;
+}
+.katki ul{
+  width: 100%;
+}
+.katki #katki-ul1 li{
+   width: 100%;
+   margin: 0 auto;
+   justify-content: center;
+   text-align:center;
+}
+.katki #katki-ul2 li{
+ width: 100%;
+ margin: 0 auto;
+ justify-content: center;
+ text-align:center;
+}
+
+
+.yas{
+  flex-direction:column;
+  display: flex;
+  width: 100%;
+  height: 55em;
+  margin: auto;
+  background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+  box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+  color: white;
+  
+}
+
+.yas-sag{
+ 
+margin:auto;
+display: flex;
+text-align: left;
+justify-content: space-evenly;
+background-color:transparent;
+width: 100%;
+}
+.yas-sag ul{
+  padding:0;
+  width: 100%;
+}
+.yas-sag ul li h2{
+margin: 0 auto;
+font-size: 3rem;
+width: 85%;
+}
+.yas-sag ul li p{
+  margin: auto auto 5% auto;
+  width: 85%;
+  font-size: 1.6rem;
+}
+.yas-sag ul li button{
+
+    width: 260px;
+    height: 90px;
+    border-radius: 50px;
+    border-style: none;
+    color: white;
+    background: rgb(194, 0, 194);
+    font-weight: 700;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 1s;
+}
+.yas-sag ul li{
+  display: flex;
+  justify-content: center;
+  margin: 2% auto;
+}
+.yas-sol{
+margin: 5% auto;
+display: flex;
+background-color: transparent;
+width: 60%;
+}
+.yas-sol img{
+text-align: center;
+margin: 0 auto;
+z-index: 3;
+}
+.footer-menu{
+  display: block;
+  width: 100%;
+  height: 15em;
+}
+.footer-branding{
+  justify-content: center;
+  height: 25%;
+  padding-top: 1%;
+  
+}
+
+.footer-other{
+  justify-content: center;
+  padding-top: 1%;
+  
+}
+.footer-menu ul{
+  display: block;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+.footer-menu-links {
+      display: block;
+}
+
+.footer-menu ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin: 0 auto;
+  text-align: center;
+}
+.footer-menu ul li{
+  list-style: none;
+  display: block;
+  position: relative;
+  left :0px;
+  justify-content: center;
+  align-items: center;
+  margin: 2% auto;
+
+
+  
+}
+.footer-menu ul {
+  display: block;
+  margin-top: 5%;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.logo{
+  margin: auto 0;
+}
+.copyright{
+  height: 4em;
+
+}
+.copyright p {
+  width: 45%;
+  text-align: center;
+  font-size: 1rem;
+}
+
+}
+}/*Portrait*/
+
+
+
+
+/********************************************    *****************************************************************/
+/********************************************    *****************************************************************/
+/********************************************    *****************************************************************/
+/********************************************    *****************************************************************/
+/********************************************    *****************************************************************/
+/********************************************    *****************************************************************/
+/********************************************    *****************************************************************/
+/********************************************               ******************************************************/
+/********************************************               ******************************************************/
+/*****************************************************************************************************************/
+
+@media screen and (orientation:landscape){
+  @media only screen  and (min-width:320px) and (max-width:568px){
+
+    .toggle-menu-box{
+      width: max-content;
+      height: max-content;
+    }
+    .menu__btn{
+      display: flex;
+      z-index: 4;
+    }
+    .menu__box{
+      z-index: 3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0 0 ;
+    } 
+    .menu__item{
+      padding: 4px 0px;
+      font-size: 0.8rem;
+      width: 100%;
+    }
+    .menu__item2{
+      margin-top: 5%;
+      padding: 4px 0px;
+      width: 100%;
+      font-size: 0.8rem ;
+      
+      
+    }
+    #menu__toggle{
+      display: none;
+      visibility: hidden;
+    }
+    .btn-basvur{
+      z-index: 4;
+      width: 110px;
+      height: 40px;
+      font-size: 12px;
+      margin-left: 0%;
+      margin-right: 5%;
+      border-radius: 40px;
+    }
+    .a-menubox{
+        font-size: 1.1rem;
+        font-weight: 800;
+    }
+    .p-genel2{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    .btn-kamp{
+      display: none;
+    }
+    .header-top{
+      width: 100%;
+    }
+    .navbar-links{
+      display: none;
+    }
+    .navbar-branding{
+      margin-left:1%;
+      z-index: 4;
+      width: 50%;
+      font-size: 1.2rem;
+      font-weight: 800;
+      justify-content: flex-start;
+      
+  }  
+  .brand-name a{
+    font-size: 18px;
+    font-weight: 700;
+    width: 70%;
+  }
+  .navbar-btn-group{
+    width: 50%;
+    justify-content: flex-end;
+    margin-right: 2%;
+    
+  }
+  .sticky + .main{
+    padding: 0px;
+  }
+  .main{
+    text-align: center;
+    display: flex;
+    width: 100%;
+    height: 20em;
+    margin: auto;
+    background: linear-gradient(130deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+    color: white;
+  }
+  .main-elemanlar{
+    margin: 1% auto auto auto;
+  }
+  
+  .main-elemanlar #main-yazilar li p{
+    font-size: 18px;
+    margin-top: 1%;
+    width: 80%;
+  }
+  .main-elemanlar #main-butonlar {
+      display: unset;
+      justify-content: center;
+      
+  }
+ .main-elemanlar #main-butonlar button{
+  margin: 0 auto;
+ }
+  #btn-kam1{
+  display: none;
+  }
+  .main-elemanlar #main-yazilar li h2{
+  font-size: 2.2rem;
+  margin: 0 auto;
+  width: 80%;
+  }
+  .nedir{
+  flex-direction: column-reverse;
+  display: flex;
+  width: 100%;
+  height: 38em;
+  margin: auto;
+  background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+  box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+  color: white;
+  
+  }
+  
+  .nedir-sol{
+  margin:auto;
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+  background-color:transparent;
+  width: 100%;
+  }
+  .nedir-sol ul{
+  padding:0;
+  width: 100%;
+  
+  
+  }
+  .nedir-sol ul li h2{
+  margin: 0 auto;
+  font-size: 2.2rem;
+  width: 85%;
+  
+  }
+  .nedir-sol ul li p{
+  margin: 0 auto;
+  width: 85%;
+  font-size: 17px;
+  }
+  .nedir-sol ul li{
+  display: flex;
+  margin: 0 auto;
+  }
+  .nedir-sag{
+  margin: auto;
+  display: flex;
+  background-color: transparent;
+  width: 60%;
+  }
+  
+  .nedir-sag img{
+  text-align: center;
+  margin: 5% 0%;
+  z-index: 2;
+  }
+  .btn-detay-genel{
+    width: 130px;
+    height: 55px;
+    font-size: 15px;
+    margin: 5% auto auto 7.5%;
+  }
+  
+  .hesaplama{
+  flex-direction:column;
+  display: flex;
+  width: 100%;
+  height: 38em;
+  margin: auto;
+  background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+  box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+  color: white;
+  
+  }
+  
+  .hesaplama-sag{
+  
+  margin:auto;
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+  background-color:transparent;
+  width: 100%;
+  }
+  .hesaplama-sag ul{
+  padding:0;
+  width: 100%;
+  }
+  .hesaplama-sag ul li h2{
+  margin: 0% auto;
+  font-size: 2.2rem;
+  width: 85%;
+  }
+  .hesaplama-sag ul li p{
+  margin: auto auto 0% auto;
+  width: 85%;
+  font-size: 17px;
+  }
+  .hesaplama-sag ul li button{
+  
+    width: 160px;
+    height: 50px;
+    border-radius: 40px;
+    border-style: none;
+    color: white;
+    background: rgb(194, 0, 194);
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 1s;
+  }
+  .hesaplama-sag ul li{
+  display: flex;
+  justify-content: center;
+  margin: 2% auto;
+  }
+  .hesaplama-sol{
+  margin: auto;
+  display: flex;
+  background-color: transparent;
+  width: 60%;
+  }
+  .hesaplama-sol img{
+  text-align: center;
+  margin: 5% auto;
+  z-index: 3;
+  }
+  .btn-g-hem{
+    display: block;
+    margin: auto auto 2% 7.5%;
+  }
+  .btn-g-detay{
+  display: none;
+  }
+  
+  
+  .avantaj{
+    width: 100%;
+    height: 100em;
+  }
+  .btn-detay-none{
+   display: none;
+  }
+  .avantaj-ust h2{
+      font-size: 2.0rem;
+      text-align: center;
+      width: 90%;
+      font-weight: 700;
+    }
+    .avantaj-ust{
+      padding:0;
+    }
+    .avantaj-orta h2{
+      font-size: 2.0rem;
+      width: 85%;
+      font-weight: 700;
+      margin-bottom: 2%;
+    }
+    .avantaj-orta p{
+      font-size: 20px;
+      font-weight: 400;
+      width: 85%;
+      margin-bottom: 2%;
+      
+      
+    }
+    .avantaj-orta img{
+      margin-bottom: 5%;
+    }
+   .birikim{
+     display: block;
+   }
+   .birikim ul{
+     width: 100%;
+   }
+   .birikim #birikim-ul1 li{
+      width: 100%;
+      margin: 0 auto;
+      justify-content: center;
+      text-align:center;
+   }
+   .birikim #birikim-ul2 li{
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    text-align:center;
+   }
+   .katki{
+    display: block;
+  }
+  .katki ul{
+    width: 100%;
+  }
+  .katki #katki-ul1 li{
+     width: 100%;
+     margin: 0 auto;
+     justify-content: center;
+     text-align:center;
+  }
+  .katki #katki-ul2 li{
+   width: 100%;
+   margin: 0 auto;
+   justify-content: center;
+   text-align:center;
+  }
+  
+  
+  .yas{
+    flex-direction:column;
+    display: flex;
+    width: 100%;
+    height: 36em;
+    margin: auto;
+    background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+    box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+    color: white;
+    
+  }
+  
+  .yas-sag{
+   
+  margin: 2% auto;
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+  background-color:transparent;
+  width: 100%;
+  }
+  .yas-sag ul{
+    padding:0;
+    width: 100%;
+  }
+  .yas-sag ul li h2{
+  margin: 0 auto;
+  font-size: 2.0rem;
+  width: 85%;
+  }
+  .yas-sag ul li p{
+    margin: auto auto 2% auto;
+    width: 85%;
+    font-size: 17px;
+  }
+  .yas-sag ul li button{
+  
+      width: 160px;
+      height: 50px;
+      border-radius: 40px;
+      border-style: none;
+      color: white;
+      background: rgb(194, 0, 194);
+      font-weight: 700;
+      font-size: 15px;
+      cursor: pointer;
+      transition: all 1s;
+      display: block;
+      margin: 0 auto auto 7.5%;
+  }
+  .yas-sag ul li{
+    display: flex;
+    
+    margin: 2% auto;
+  }
+  .yas-sol{
+  margin: 5% auto;
+  display: flex;
+  background-color: transparent;
+  width: 60%;
+  }
+  .yas-sol img{
+  text-align: center;
+  margin: 0 auto;
+  z-index: 3;
+  }
+  .footer-menu{
+    display: block;
+    width: 100%;
+    height: 11em;
+  }
+  .footer-branding{
+    justify-content: center;
+    height: 25%;
+    padding-top: 3%;
+    
+  }
+  
+  .footer-other{
+    justify-content: center;
+    padding-top: 1%;
+    
+  }
+  .footer-menu ul{
+    display: block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .footer-menu-links {
+        display: block;
+       
+  
+  }
+  
+  .footer-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .footer-menu ul li{
+    list-style: none;
+    display: block;
+    position: relative;
+    left :0px;
+    justify-content: center;
+    align-items: center;
+    margin: 2% auto;
+  
+  
+    
+  }
+  .footer-menu ul {
+    display: block;
+    margin-top: 5%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .logo{
+    margin: auto 0;
+  }
+  .logoname{
+    font-size: 22px;
+  }
+  .copyright{
+    height: 3em;
+  
+  }
+  .copyright p {
+    width: 70%;
+    text-align: center;
+    font-size: 13px;
+  }
+  
+  }
+  /*********************************************************************************************/
+  /*********************************************************************************************/
+  /*********************************************************************************************/
+  /*********************************************************************************************/
+  /*********************************************************************************************/
+  @media only screen  and (min-width: 569px) and (max-width: 667px){
+
+    .toggle-menu-box{
+      width: max-content;
+      height: max-content;
+    }
+    .menu__btn{
+      display: flex;
+      z-index: 4;
+    }
+    .menu__box{
+      z-index: 3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0 0 ;
+    } 
+    .menu__item{
+      padding: 4px 0px;
+      font-size: 1rem;
+      width: 100%;
+    }
+    .menu__item2{
+      margin-top: 5%;
+      padding: 4px 0px;
+      width: 100%;
+      font-size: 1rem;
+      
+    }
+    #menu__toggle{
+      display: none;
+      visibility: hidden;
+    }
+    .btn-basvur{
+      z-index: 4;
+      width: 120px;
+      height: 45px;
+      font-size: 13px;
+      margin-left: 0%;
+      margin-right: 5%;
+      border-radius: 40px;
+    }
+    .a-menubox{
+        font-size: 1.1rem;
+        font-weight: 800;
+    }
+    .p-genel2{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    .btn-kamp{
+      display: none;
+    }
+    .header-top{
+      width: 100%;
+    }
+    .navbar-links{
+      display: none;
+    }
+    .navbar-branding{
+      margin-left:1%;
+      z-index: 4;
+      width: 50%;
+      font-size: 1.5rem;
+      font-weight: 800;
+      justify-content: flex-start;
+      
+  }  
+  .brand-name a{
+    font-size: 18px;
+    font-weight: 700;
+    width: 70%;
+  }
+  .navbar-btn-group{
+    width: 50%;
+    justify-content: flex-end;
+    margin-right: 2%;
+  }
+  .sticky + .main{
+    padding: 0px;
+  }
+  .main{
+    text-align: center;
+    display: flex;
+    width: 100%;
+    height: 20em;
+    margin: auto;
+    background: linear-gradient(130deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+    color: white;
+  }
+  .main-elemanlar{
+    margin: 1% auto auto auto;
+  }
+  
+  .main-elemanlar #main-yazilar li p{
+    font-size: 18px;
+    margin-top: 1%;
+    width: 80%;
+  }
+  .main-elemanlar #main-butonlar {
+      display: unset;
+      justify-content: center;
+      
+  }
+ .main-elemanlar #main-butonlar button{
+  margin: 0 auto;
+ }
+  #btn-kam1{
+  display: none;
+  }
+  .main-elemanlar #main-yazilar li h2{
+  font-size: 2.2rem;
+  margin: 0 auto;
+  width: 80%;
+  }
+  .nedir{
+  flex-direction: column-reverse;
+  display: flex;
+  width: 100%;
+  height: 38em;
+  margin: auto;
+  background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+  box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+  color: white;
+  
+  }
+  
+  .nedir-sol{
+  margin:auto;
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+  background-color:transparent;
+  width: 100%;
+  }
+  .nedir-sol ul{
+  padding:0;
+  width: 100%;
+  
+  
+  }
+  .nedir-sol ul li h2{
+  margin: 0 auto;
+  font-size: 2.2rem;
+  width: 85%;
+  
+  }
+  .nedir-sol ul li p{
+  margin: 0 auto;
+  width: 85%;
+  font-size: 17px;
+  }
+  .nedir-sol ul li{
+  display: flex;
+  margin: 0 auto;
+  }
+  .nedir-sag{
+  margin: auto;
+  display: flex;
+  background-color: transparent;
+  width: 60%;
+  }
+  
+  .nedir-sag img{
+  text-align: center;
+  margin: 5% 0%;
+  z-index: 2;
+  }
+  .btn-detay-genel{
+    width: 130px;
+    height: 55px;
+    font-size: 15px;
+    margin: 5% auto auto 7.5%;
+  }
+  
+  .hesaplama{
+  flex-direction:column;
+  display: flex;
+  width: 100%;
+  height: 38em;
+  margin: auto;
+  background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+  box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+  color: white;
+  
+  }
+  
+  .hesaplama-sag{
+  
+  margin:auto;
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+  background-color:transparent;
+  width: 100%;
+  }
+  .hesaplama-sag ul{
+  padding:0;
+  width: 100%;
+  }
+  .hesaplama-sag ul li h2{
+  margin: 0% auto;
+  font-size: 2.2rem;
+  width: 85%;
+  }
+  .hesaplama-sag ul li p{
+  margin: auto auto 0% auto;
+  width: 85%;
+  font-size: 17px;
+  }
+  .hesaplama-sag ul li button{
+  
+    width: 160px;
+    height: 50px;
+    border-radius: 40px;
+    border-style: none;
+    color: white;
+    background: rgb(194, 0, 194);
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 1s;
+  }
+  .hesaplama-sag ul li{
+  display: flex;
+  justify-content: center;
+  margin: 2% auto;
+  }
+  .hesaplama-sol{
+  margin: auto;
+  display: flex;
+  background-color: transparent;
+  width: 60%;
+  }
+  .hesaplama-sol img{
+  text-align: center;
+  margin: 5% auto;
+  z-index: 3;
+  }
+  .btn-g-hem{
+    display: block;
+    margin: auto auto 2% 7.5%;
+  }
+  .btn-g-detay{
+  display: none;
+  }
+  
+  
+  .avantaj{
+    width: 100%;
+    height: 100em;
+  }
+  .btn-detay-none{
+   display: none;
+  }
+  .avantaj-ust h2{
+      font-size: 2.0rem;
+      text-align: center;
+      width: 90%;
+      font-weight: 700;
+    }
+    .avantaj-ust{
+      padding:0;
+    }
+    .avantaj-orta h2{
+      font-size: 2.0rem;
+      width: 85%;
+      font-weight: 700;
+      margin-bottom: 2%;
+    }
+    .avantaj-orta p{
+      font-size: 20px;
+      font-weight: 400;
+      width: 85%;
+      margin-bottom: 2%;
+      
+      
+    }
+    .avantaj-orta img{
+      margin-bottom: 5%;
+    }
+   .birikim{
+     display: block;
+   }
+   .birikim ul{
+     width: 100%;
+   }
+   .birikim #birikim-ul1 li{
+      width: 100%;
+      margin: 0 auto;
+      justify-content: center;
+      text-align:center;
+   }
+   .birikim #birikim-ul2 li{
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    text-align:center;
+   }
+   .katki{
+    display: block;
+  }
+  .katki ul{
+    width: 100%;
+  }
+  .katki #katki-ul1 li{
+     width: 100%;
+     margin: 0 auto;
+     justify-content: center;
+     text-align:center;
+  }
+  .katki #katki-ul2 li{
+   width: 100%;
+   margin: 0 auto;
+   justify-content: center;
+   text-align:center;
+  }
+  
+  
+  .yas{
+    flex-direction:column;
+    display: flex;
+    width: 100%;
+    height: 38em;
+    margin: auto;
+    background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+    box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+    color: white;
+    
+  }
+  
+  .yas-sag{
+   
+  margin: 2% auto;
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+  background-color:transparent;
+  width: 100%;
+  }
+  .yas-sag ul{
+    padding:0;
+    width: 100%;
+  }
+  .yas-sag ul li h2{
+  margin: 0 auto;
+  font-size: 2.0rem;
+  width: 85%;
+  }
+  .yas-sag ul li p{
+    margin: auto auto 2% auto;
+    width: 85%;
+    font-size: 17px;
+  }
+  .yas-sag ul li button{
+  
+      width: 160px;
+      height: 50px;
+      border-radius: 40px;
+      border-style: none;
+      color: white;
+      background: rgb(194, 0, 194);
+      font-weight: 700;
+      font-size: 15px;
+      cursor: pointer;
+      transition: all 1s;
+      display: block;
+      margin: 0 auto auto 7.5%;
+  }
+  .yas-sag ul li{
+    display: flex;
+    
+    margin: 2% auto;
+  }
+  .yas-sol{
+  margin: 5% auto;
+  display: flex;
+  background-color: transparent;
+  width: 60%;
+  }
+  .yas-sol img{
+  text-align: center;
+  margin: 0 auto;
+  z-index: 3;
+  }
+  .footer-menu{
+    display: block;
+    width: 100%;
+    height: 11em;
+  }
+  .footer-branding{
+    justify-content: center;
+    height: 25%;
+    padding-top: 2%;
+    
+  }
+  
+  .footer-other{
+    justify-content: center;
+    padding-top: 1%;
+    
+  }
+  .footer-menu ul{
+    display: block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .footer-menu-links {
+        display: block;
+       
+  
+  }
+  
+  .footer-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .footer-menu ul li{
+    list-style: none;
+    display: block;
+    position: relative;
+    left :0px;
+    justify-content: center;
+    align-items: center;
+    margin: 2% auto;
+  
+  
+    
+  }
+  .footer-menu ul {
+    display: block;
+    margin-top: 5%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .logo{
+    margin: auto 0;
+  }
+  .logoname{
+    font-size: 22px;
+  }
+  .copyright{
+    height: 3em;
+  
+  }
+  .copyright p {
+    width: 70%;
+    text-align: center;
+    font-size: 13px;
+  }
+  
+  }
+
+  /*********************************************************************************************/
+  /*********************************************************************************************/
+  /*********************************************************************************************/
+  /*********************************************************************************************/
+  /*********************************************************************************************/
+  /*********************************************************************************************/
+  @media only screen  and (min-width: 668px) and (max-width: 768px){
+
+    .toggle-menu-box{
+      width: max-content;
+      height: max-content;
+    }
+    .menu__btn{
+      display: flex;
+      z-index: 4;
+    }
+    .menu__box{
+      z-index: 3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0 0 ;
+    } 
+    .menu__item{
+      padding: 4px 0px;
+      font-size: 1rem;
+      width: 100%;
+    }
+    .menu__item2{
+      margin-top: 5%;
+      padding: 4px 0px;
+      width: 100%;
+      font-size: 1rem;
+      
+    }
+    #menu__toggle{
+      display: none;
+      visibility: hidden;
+    }
+    .btn-basvur{
+      z-index: 4;
+      width: 120px;
+      height: 45px;
+      font-size: 13px;
+      margin-left: 0%;
+      margin-right: 5%;
+      border-radius: 40px;
+    }
+    .a-menubox{
+        font-size: 1.4rem;
+        font-weight: 800;
+    }
+    .p-genel2{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    .btn-kamp{
+      display: none;
+    }
+    .header-top{
+      width: 100%;
+    }
+    .navbar-links{
+      display: none;
+    }
+    .navbar-branding{
+      margin-left:1%;
+      z-index: 4;
+      width: 50%;
+      font-size: 1.5rem;
+      font-weight: 800;
+      justify-content: flex-start;
+      
+  }  
+  .brand-name a{
+    font-size: 18px;
+    font-weight: 700;
+    width: 70%;
+  }
+  .navbar-btn-group{
+    width: 50%;
+    justify-content: flex-end;
+    margin-right: 2%;
+  }
+  .sticky + .main{
+    padding: 0px;
+  }
+  .main{
+    text-align: center;
+    display: flex;
+    width: 100%;
+    height: 20em;
+    margin: auto;
+    background: linear-gradient(130deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+    color: white;
+  }
+  .main-elemanlar{
+    margin: 1% auto auto auto;
+  }
+  
+  .main-elemanlar #main-yazilar li p{
+    font-size: 18px;
+    margin-top: 1%;
+    width: 80%;
+  }
+  .main-elemanlar #main-butonlar {
+      display: unset;
+      justify-content: center;
+      
+  }
+ .main-elemanlar #main-butonlar button{
+  margin: 0 auto;
+ }
+  #btn-kam1{
+  display: none;
+  }
+  .main-elemanlar #main-yazilar li h2{
+  font-size: 2.2rem;
+  margin: 0 auto;
+  width: 80%;
+  }
+  .nedir{
+  flex-direction: column-reverse;
+  display: flex;
+  width: 100%;
+  height: 38em;
+  margin: auto;
+  background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+  box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+  color: white;
+  
+  }
+  
+  .nedir-sol{
+  margin:auto;
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+  background-color:transparent;
+  width: 100%;
+  }
+  .nedir-sol ul{
+  padding:0;
+  width: 100%;
+  
+  
+  }
+  .nedir-sol ul li h2{
+  margin: 0 auto;
+  font-size: 2.2rem;
+  width: 85%;
+  
+  }
+  .nedir-sol ul li p{
+  margin: 0 auto;
+  width: 85%;
+  font-size: 17px;
+  }
+  .nedir-sol ul li{
+  display: flex;
+  margin: 0 auto;
+  }
+  .nedir-sag{
+  margin: auto;
+  display: flex;
+  background-color: transparent;
+  width: 50%;
+  }
+  
+  .nedir-sag img{
+  text-align: center;
+  margin: 5% 0%;
+  z-index: 2;
+  }
+  .btn-detay-genel{
+    width: 130px;
+    height: 55px;
+    font-size: 15px;
+    margin: 5% auto auto 7.5%;
+  }
+  
+  .hesaplama{
+  flex-direction:column;
+  display: flex;
+  width: 100%;
+  height: 38em;
+  margin: auto;
+  background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+  box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+  color: white;
+  
+  }
+  
+  .hesaplama-sag{
+  
+  margin:auto;
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+  background-color:transparent;
+  width: 100%;
+  }
+  .hesaplama-sag ul{
+  padding:0;
+  width: 100%;
+  }
+  .hesaplama-sag ul li h2{
+  margin: 0% auto;
+  font-size: 2.2rem;
+  width: 85%;
+  }
+  .hesaplama-sag ul li p{
+  margin: auto auto 0% auto;
+  width: 85%;
+  font-size: 17px;
+  }
+  .hesaplama-sag ul li button{
+  
+    width: 160px;
+    height: 50px;
+    border-radius: 40px;
+    border-style: none;
+    color: white;
+    background: rgb(194, 0, 194);
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 1s;
+  }
+  .hesaplama-sag ul li{
+  display: flex;
+  justify-content: center;
+  margin: 2% auto;
+  }
+  .hesaplama-sol{
+  margin: auto;
+  display: flex;
+  background-color: transparent;
+  width: 50%;
+  }
+  .hesaplama-sol img{
+  text-align: center;
+  margin: 5% auto;
+  z-index: 3;
+  }
+  .btn-g-hem{
+    display: block;
+    margin: auto auto 2% 7.5%;
+  }
+  .btn-g-detay{
+  display: none;
+  }
+  
+  
+  .avantaj{
+    width: 100%;
+    height: 100em;
+  }
+  .btn-detay-none{
+   display: none;
+  }
+  .avantaj-ust h2{
+      font-size: 2.0rem;
+      text-align: center;
+      width: 90%;
+      font-weight: 700;
+    }
+    .avantaj-ust{
+      padding:0;
+    }
+    .avantaj-orta h2{
+      font-size: 2.0rem;
+      width: 85%;
+      font-weight: 700;
+      margin-bottom: 2%;
+    }
+    .avantaj-orta p{
+      font-size: 20px;
+      font-weight: 400;
+      width: 85%;
+      margin-bottom: 2%;
+      
+      
+    }
+    .avantaj-orta img{
+      margin-bottom: 5%;
+    }
+   .birikim{
+     display: block;
+   }
+   .birikim ul{
+     width: 100%;
+   }
+   .birikim #birikim-ul1 li{
+      width: 100%;
+      margin: 0 auto;
+      justify-content: center;
+      text-align:center;
+   }
+   .birikim #birikim-ul2 li{
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    text-align:center;
+   }
+   .katki{
+    display: block;
+  }
+  .katki ul{
+    width: 100%;
+  }
+  .katki #katki-ul1 li{
+     width: 100%;
+     margin: 0 auto;
+     justify-content: center;
+     text-align:center;
+  }
+  .katki #katki-ul2 li{
+   width: 100%;
+   margin: 0 auto;
+   justify-content: center;
+   text-align:center;
+  }
+  
+  
+  .yas{
+    flex-direction:column;
+    display: flex;
+    width: 100%;
+    height: 38em;
+    margin: auto;
+    background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+    box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+    color: white;
+    
+  }
+  
+  .yas-sag{
+   
+  margin: 2% auto;
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+  background-color:transparent;
+  width: 100%;
+  }
+  .yas-sag ul{
+    padding:0;
+    width: 100%;
+  }
+  .yas-sag ul li h2{
+  margin: 0 auto;
+  font-size: 2.0rem;
+  width: 85%;
+  }
+  .yas-sag ul li p{
+    margin: auto auto 2% auto;
+    width: 85%;
+    font-size: 17px;
+  }
+  .yas-sag ul li button{
+  
+      width: 160px;
+      height: 50px;
+      border-radius: 40px;
+      border-style: none;
+      color: white;
+      background: rgb(194, 0, 194);
+      font-weight: 700;
+      font-size: 15px;
+      cursor: pointer;
+      transition: all 1s;
+      display: block;
+      margin: 0 auto auto 7.5%;
+  }
+  .yas-sag ul li{
+    display: flex;
+    
+    margin: 2% auto;
+  }
+  .yas-sol{
+  margin: 5% auto;
+  display: flex;
+  background-color: transparent;
+  width: 50%;
+  }
+  .yas-sol img{
+  text-align: center;
+  margin: 0 auto;
+  z-index: 3;
+  }
+  .footer-menu{
+    display: block;
+    width: 100%;
+    height: 11em;
+  }
+  .footer-branding{
+    justify-content: center;
+    height: 25%;
+    padding-top: 2%;
+    
+  }
+  
+  .footer-other{
+    justify-content: center;
+    padding-top: 1%;
+    
+  }
+  .footer-menu ul{
+    display: block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .footer-menu-links {
+        display: block;
+       
+  
+  }
+  
+  .footer-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .footer-menu ul li{
+    list-style: none;
+    display: block;
+    position: relative;
+    left :0px;
+    justify-content: center;
+    align-items: center;
+    margin: 2% auto;
+  
+  
+    
+  }
+  .footer-menu ul {
+    display: block;
+    margin-top: 5%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .logo{
+    margin: auto 0;
+  }
+  .logoname{
+    font-size: 22px;
+  }
+  .copyright{
+    height: 3em;
+  
+  }
+  .copyright p {
+    width: 70%;
+    text-align: center;
+    font-size: 13px;
+  }
+  
+  }
+  /**************************************************************************************/
+  /**************************************************************************************/
+  /**************************************************************************************/
+  /**************************************************************************************/
+  /**************************************************************************************/
+
+  @media only screen  and (min-width: 769px) and (max-width: 868px){
+
+    .toggle-menu-box{
+      width: max-content;
+      height: max-content;
+    }
+    .menu__btn{
+      display: flex;
+      z-index: 4;
+    }
+    .menu__box{
+      z-index: 3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0 0 ;
+    } 
+    .menu__item{
+      padding: 4px 0px;
+      font-size: 1rem;
+      width: 100%;
+    }
+    .menu__item2{
+      margin-top: 5%;
+      padding: 4px 0px;
+      width: 100%;
+      font-size: 1rem;
+      
+    }
+    #menu__toggle{
+      display: none;
+      visibility: hidden;
+    }
+    .btn-basvur{
+      z-index: 4;
+      width: 120px;
+      height: 45px;
+      font-size: 13px;
+      margin-left: 0%;
+      margin-right: 5%;
+      border-radius: 40px;
+    }
+    .a-menubox{
+        font-size: 1.4rem;
+        font-weight: 800;
+    }
+    .p-genel2{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    .btn-kamp{
+      display: none;
+    }
+    .header-top{
+      width: 100%;
+    }
+    .navbar-links{
+      display: none;
+    }
+    .navbar-branding{
+      margin-left:1%;
+      z-index: 4;
+      width: 50%;
+      font-size: 1.7rem;
+      font-weight: 800;
+      justify-content: flex-start;
+  }  
+  .navbar img{
+      width: 60px;
+      height: 60px;
+  }
+  .brand-name a{
+    font-size: 18px;
+    font-weight: 700;
+    width: 70%;
+  }
+  .navbar-btn-group{
+    width: 50%;
+    justify-content: flex-end;
+    margin-right: 2%;
+  }
+  .sticky + .main{
+    padding: 0px;
+  }
+  .main{
+    text-align: center;
+    display: flex;
+    width: 100%;
+    height: 20em;
+    margin: auto;
+    background: linear-gradient(130deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+    color: white;
+  }
+  .main-elemanlar{
+    margin: 1% auto auto auto;
+  }
+  
+  .main-elemanlar #main-yazilar li p{
+    font-size: 18px;
+    margin-top: 1%;
+    width: 80%;
+  }
+  .main-elemanlar #main-butonlar {
+      display: unset;
+      justify-content: center;
+      
+  }
+ .main-elemanlar #main-butonlar button{
+  margin: 0 auto;
+ }
+  #btn-kam1{
+  display: none;
+  }
+  .main-elemanlar #main-yazilar li h2{
+  font-size: 2.2rem;
+  margin: 2% auto;
+  width: 80%;
+  }
+  .nedir{
+  flex-direction: column-reverse;
+  display: flex;
+  width: 100%;
+  height: 38em;
+  margin: auto;
+  background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+  box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+  color: white;
+  
+  }
+  
+  .nedir-sol{
+  margin:auto;
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+  background-color:transparent;
+  width: 100%;
+  }
+  .nedir-sol ul{
+  padding:0;
+  width: 100%;
+  
+  
+  }
+  .nedir-sol ul li h2{
+  margin: 0 auto;
+  font-size: 2.2rem;
+  width: 85%;
+  
+  }
+  .nedir-sol ul li p{
+  margin: 0 auto;
+  width: 85%;
+  font-size: 17px;
+  }
+  .nedir-sol ul li{
+  display: flex;
+  margin: 0 auto;
+  }
+  .nedir-sag{
+  margin: auto;
+  display: flex;
+  background-color: transparent;
+  width: 50%;
+  }
+  
+  .nedir-sag img{
+  text-align: center;
+  margin: 5% 0%;
+  z-index: 2;
+  }
+  .btn-detay-genel{
+    width: 130px;
+    height: 55px;
+    font-size: 15px;
+    margin: 5% auto auto 7.5%;
+  }
+  
+  .hesaplama{
+  flex-direction:column;
+  display: flex;
+  width: 100%;
+  height: 38em;
+  margin: auto;
+  background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+  box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+  color: white;
+  
+  }
+  
+  .hesaplama-sag{
+  
+  margin:auto;
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+  background-color:transparent;
+  width: 100%;
+  }
+  .hesaplama-sag ul{
+  padding:0;
+  width: 100%;
+  }
+  .hesaplama-sag ul li h2{
+  margin: 0% auto;
+  font-size: 2.2rem;
+  width: 85%;
+  }
+  .hesaplama-sag ul li p{
+  margin: auto auto 0% auto;
+  width: 85%;
+  font-size: 17px;
+  }
+  .hesaplama-sag ul li button{
+  
+    width: 160px;
+    height: 50px;
+    border-radius: 40px;
+    border-style: none;
+    color: white;
+    background: rgb(194, 0, 194);
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 1s;
+  }
+  .hesaplama-sag ul li{
+  display: flex;
+  justify-content: center;
+  margin: 2% auto;
+  }
+  .hesaplama-sol{
+  margin: auto;
+  display: flex;
+  background-color: transparent;
+  width: 50%;
+  }
+  .hesaplama-sol img{
+  text-align: center;
+  margin: 5% auto;
+  z-index: 3;
+  }
+  .btn-g-hem{
+    display: block;
+    margin: auto auto 2% 7.5%;
+  }
+  .btn-g-detay{
+  display: none;
+  }
+  
+  
+  .avantaj{
+    width: 100%;
+    height: 100em;
+  }
+  .btn-detay-none{
+   display: none;
+  }
+  .avantaj-ust h2{
+      font-size: 2.0rem;
+      text-align: center;
+      width: 90%;
+      font-weight: 700;
+    }
+    .avantaj-ust{
+      padding:0;
+    }
+    .avantaj-orta h2{
+      font-size: 2.0rem;
+      width: 85%;
+      font-weight: 700;
+      margin-bottom: 2%;
+    }
+    .avantaj-orta p{
+      font-size: 20px;
+      font-weight: 400;
+      width: 85%;
+      margin-bottom: 2%;
+      
+      
+    }
+    .avantaj-orta img{
+      margin-bottom: 5%;
+    }
+   .birikim{
+     display: block;
+   }
+   .birikim ul{
+     width: 100%;
+   }
+   .birikim #birikim-ul1 li{
+      width: 100%;
+      margin: 0 auto;
+      justify-content: center;
+      text-align:center;
+   }
+   .birikim #birikim-ul2 li{
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    text-align:center;
+   }
+   .katki{
+    display: block;
+  }
+  .katki ul{
+    width: 100%;
+  }
+  .katki #katki-ul1 li{
+     width: 100%;
+     margin: 0 auto;
+     justify-content: center;
+     text-align:center;
+  }
+  .katki #katki-ul2 li{
+   width: 100%;
+   margin: 0 auto;
+   justify-content: center;
+   text-align:center;
+  }
+  
+  
+  .yas{
+    flex-direction:column;
+    display: flex;
+    width: 100%;
+    height: 38em;
+    margin: auto;
+    background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+    box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+    color: white;
+    
+  }
+  
+  .yas-sag{
+   
+  margin: 2% auto;
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+  background-color:transparent;
+  width: 100%;
+  }
+  .yas-sag ul{
+    padding:0;
+    width: 100%;
+  }
+  .yas-sag ul li h2{
+  margin: 0 auto;
+  font-size: 2.0rem;
+  width: 85%;
+  }
+  .yas-sag ul li p{
+    margin: auto auto 2% auto;
+    width: 85%;
+    font-size: 17px;
+  }
+  .yas-sag ul li button{
+  
+      width: 160px;
+      height: 50px;
+      border-radius: 40px;
+      border-style: none;
+      color: white;
+      background: rgb(194, 0, 194);
+      font-weight: 700;
+      font-size: 15px;
+      cursor: pointer;
+      transition: all 1s;
+      display: block;
+      margin: 0 auto auto 7.5%;
+  }
+  .yas-sag ul li{
+    display: flex;
+    
+    margin: 2% auto;
+  }
+  .yas-sol{
+  margin: 5% auto;
+  display: flex;
+  background-color: transparent;
+  width: 50%;
+  }
+  .yas-sol img{
+  text-align: center;
+  margin: 0 auto;
+  z-index: 3;
+  }
+  .footer-menu{
+    display: block;
+    width: 100%;
+    height: 11em;
+  }
+  .footer-branding{
+    justify-content: center;
+    height: 25%;
+    padding-top: 2%;
+    
+  }
+  
+  .footer-other{
+    justify-content: center;
+    padding-top: 1%;
+    
+  }
+  .footer-menu ul{
+    display: block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .footer-menu-links {
+        display: block;
+       
+  
+  }
+  
+  .footer-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .footer-menu ul li{
+    list-style: none;
+    display: block;
+    position: relative;
+    left :0px;
+    justify-content: center;
+    align-items: center;
+    margin: 2% auto;
+  
+  
+    
+  }
+  .footer-menu ul {
+    display: block;
+    margin-top: 5%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .logo{
+    margin: auto 0;
+  }
+  .logoname{
+    font-size: 22px;
+  }
+  .copyright{
+    height: 3em;
+  
+  }
+  .copyright p {
+    width: 70%;
+    text-align: center;
+    font-size: 13px;
+  }
+  
+  }
+  /**************************************************************************************/
+  /**************************************************************************************/
+  /**************************************************************************************/
+  /**************************************************************************************/
+  /**************************************************************************************/
+
+  @media only screen  and (min-width: 869px) and (max-width: 1024px){
+
+    .toggle-menu-box{
+      width: max-content;
+      height: max-content;
+    }
+    .menu__btn{
+      display: flex;
+      z-index: 4;
+    }
+    .menu__box{
+      z-index: 3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0 0 ;
+    } 
+    .menu__item{
+      padding: 4px 0px;
+      font-size: 1rem;
+      width: 100%;
+    }
+    .menu__item2{
+      margin-top: 5%;
+      padding: 4px 0px;
+      width: 100%;
+      font-size: 1rem;
+      
+    }
+    #menu__toggle{
+      display: none;
+      visibility: hidden;
+    }
+    .btn-basvur{
+      z-index: 4;
+      width: 120px;
+      height: 45px;
+      font-size: 13px;
+      margin-left: 0%;
+      margin-right: 5%;
+      border-radius: 40px;
+    }
+    .a-menubox{
+        font-size: 1.8rem;
+        font-weight: 800;
+    }
+    .p-genel2{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    .btn-kamp{
+      display: none;
+    }
+    .header-top{
+      width: 100%;
+    }
+    .navbar-links{
+      display: none;
+    }
+    .navbar-branding{
+      margin-left:1%;
+      z-index: 4;
+      width: 50%;
+      font-size: 1.7rem;
+      font-weight: 800;
+      justify-content: flex-start;
+  }  
+  .navbar img{
+      width: 60px;
+      height: 60px;
+  }
+  .brand-name a{
+    font-size: 18px;
+    font-weight: 700;
+    width: 70%;
+  }
+  .navbar-btn-group{
+    width: 50%;
+    justify-content: flex-end;
+    margin-right: 2%;
+  }
+  .sticky + .main{
+    padding: 0px;
+  }
+  .main{
+    text-align: center;
+    display: flex;
+    width: 100%;
+    height: 20em;
+    margin: auto;
+    background: linear-gradient(130deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+    color: white;
+  }
+  .main-elemanlar{
+    margin: 1% auto auto auto;
+  }
+  
+  .main-elemanlar #main-yazilar li p{
+    font-size: 18px;
+    margin-top: 1%;
+    width: 80%;
+  }
+  .main-elemanlar #main-butonlar {
+      display: unset;
+      justify-content: center;
+      
+  }
+ .main-elemanlar #main-butonlar button{
+  margin: 0 auto;
+ }
+  #btn-kam1{
+  display: none;
+  }
+  .main-elemanlar #main-yazilar li h2{
+  font-size: 2.2rem;
+  margin: 2% auto;
+  width: 80%;
+  }
+  .nedir{
+  flex-direction: column-reverse;
+  display: flex;
+  width: 100%;
+  height: 38em;
+  margin: auto;
+  background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+  box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+  color: white;
+  
+  }
+  
+  .nedir-sol{
+  margin:auto;
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+  background-color:transparent;
+  width: 100%;
+  }
+  .nedir-sol ul{
+  padding:0;
+  width: 100%;
+  
+  
+  }
+  .nedir-sol ul li h2{
+  margin: 0 auto;
+  font-size: 2.2rem;
+  width: 85%;
+  
+  }
+  .nedir-sol ul li p{
+  margin: 0 auto;
+  width: 85%;
+  font-size: 17px;
+  }
+  .nedir-sol ul li{
+  display: flex;
+  margin: 0 auto;
+  }
+  .nedir-sag{
+  margin: auto;
+  display: flex;
+  background-color: transparent;
+  width: 40%;
+  }
+  
+  .nedir-sag img{
+  text-align: center;
+  margin: 5% 0%;
+  z-index: 2;
+  }
+  .btn-detay-genel{
+    width: 130px;
+    height: 55px;
+    font-size: 15px;
+    margin: 5% auto auto 7.5%;
+  }
+  
+  .hesaplama{
+  flex-direction:column;
+  display: flex;
+  width: 100%;
+  height: 38em;
+  margin: auto;
+  background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+  box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+  color: white;
+  
+  }
+  
+  .hesaplama-sag{
+  
+  margin:auto;
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+  background-color:transparent;
+  width: 100%;
+  }
+  .hesaplama-sag ul{
+  padding:0;
+  width: 100%;
+  }
+  .hesaplama-sag ul li h2{
+  margin: 0% auto;
+  font-size: 2.2rem;
+  width: 85%;
+  }
+  .hesaplama-sag ul li p{
+  margin: auto auto 0% auto;
+  width: 85%;
+  font-size: 17px;
+  }
+  .hesaplama-sag ul li button{
+  
+    width: 160px;
+    height: 50px;
+    border-radius: 40px;
+    border-style: none;
+    color: white;
+    background: rgb(194, 0, 194);
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 1s;
+  }
+  .hesaplama-sag ul li{
+  display: flex;
+  justify-content: center;
+  margin: 2% auto;
+  }
+  .hesaplama-sol{
+  margin: auto;
+  display: flex;
+  background-color: transparent;
+  width: 40%;
+  }
+  .hesaplama-sol img{
+  text-align: center;
+  margin: 5% auto;
+  z-index: 3;
+  }
+  .btn-g-hem{
+    display: block;
+    margin: auto auto 2% 7.5%;
+  }
+  .btn-g-detay{
+  display: none;
+  }
+  
+  
+  .avantaj{
+    width: 100%;
+    height: 100em;
+  }
+  .btn-detay-none{
+   display: none;
+  }
+  .avantaj-ust h2{
+      font-size: 2.0rem;
+      text-align: center;
+      width: 90%;
+      font-weight: 700;
+    }
+    .avantaj-ust{
+      padding:0;
+    }
+    .avantaj-orta h2{
+      font-size: 2.0rem;
+      width: 85%;
+      font-weight: 700;
+      margin-bottom: 2%;
+    }
+    .avantaj-orta p{
+      font-size: 20px;
+      font-weight: 400;
+      width: 85%;
+      margin-bottom: 2%;
+      
+      
+    }
+    .avantaj-orta img{
+      margin-bottom: 5%;
+    }
+   .birikim{
+     display: block;
+   }
+   .birikim ul{
+     width: 100%;
+   }
+   .birikim #birikim-ul1 li{
+      width: 100%;
+      margin: 0 auto;
+      justify-content: center;
+      text-align:center;
+   }
+   .birikim #birikim-ul2 li{
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    text-align:center;
+   }
+   .katki{
+    display: block;
+  }
+  .katki ul{
+    width: 100%;
+  }
+  .katki #katki-ul1 li{
+     width: 100%;
+     margin: 0 auto;
+     justify-content: center;
+     text-align:center;
+  }
+  .katki #katki-ul2 li{
+   width: 100%;
+   margin: 0 auto;
+   justify-content: center;
+   text-align:center;
+  }
+  
+  
+  .yas{
+    flex-direction:column;
+    display: flex;
+    width: 100%;
+    height: 44em;
+    margin: auto;
+    background: linear-gradient(230deg, #9b54c5 0%, #4d047e 100%) no-repeat fixed;
+    box-shadow: 0 4px 14px 10px rgb(0 0 0 / 20%);
+    color: white;
+    
+  }
+  
+  .yas-sag{
+   
+  margin: 2% auto;
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+  background-color:transparent;
+  width: 100%;
+  }
+  .yas-sag ul{
+    padding:0;
+    width: 100%;
+  }
+  .yas-sag ul li h2{
+  margin: 0 auto;
+  font-size: 2.0rem;
+  width: 85%;
+  }
+  .yas-sag ul li p{
+    margin: auto auto 2% auto;
+    width: 85%;
+    font-size: 17px;
+  }
+  .yas-sag ul li button{
+  
+      width: 160px;
+      height: 50px;
+      border-radius: 40px;
+      border-style: none;
+      color: white;
+      background: rgb(194, 0, 194);
+      font-weight: 700;
+      font-size: 15px;
+      cursor: pointer;
+      transition: all 1s;
+      display: block;
+      margin: 0 auto auto 7.5%;
+  }
+  .yas-sag ul li{
+    display: flex;
+    
+    margin: 2% auto;
+  }
+  .yas-sol{
+  margin: 5% auto;
+  display: flex;
+  background-color: transparent;
+  width: 50%;
+  }
+  .yas-sol img{
+  text-align: center;
+  margin: 0 auto;
+  z-index: 3;
+  }
+  .footer-menu{
+    display: block;
+    width: 100%;
+    height: 11em;
+  }
+  .footer-branding{
+    justify-content: center;
+    height: 25%;
+    padding-top: 2%;
+    
+  }
+  
+  .footer-other{
+    justify-content: center;
+    padding-top: 1%;
+    
+  }
+  .footer-menu ul{
+    display: block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .footer-menu-links {
+        display: block;
+       
+  
+  }
+  
+  .footer-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .footer-menu ul li{
+    list-style: none;
+    display: block;
+    position: relative;
+    left :0px;
+    justify-content: center;
+    align-items: center;
+    margin: 2% auto;
+  
+  
+    
+  }
+  .footer-menu ul {
+    display: block;
+    margin-top: 5%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .logo{
+    margin: auto 0;
+  }
+  .logoname{
+    font-size: 22px;
+  }
+  .copyright{
+    height: 3em;
+  
+  }
+  .copyright p {
+    width: 70%;
+    text-align: center;
+    font-size: 13px;
+  }
+  
+  }
+}/*Landscape*/
+
+
